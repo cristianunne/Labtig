@@ -58,3 +58,37 @@ Stack Trace:
 #12 {main}
 
 
+2018-10-10 15:17:11 Error: [Cake\Database\Exception] Cannot describe mapconfig. It has 0 columns. in C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 99
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('mapconfig', Array)
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('mapconfig')
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'mapconfig', 'Mapconfig')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Mapconfig')
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ModelTask->main('mapconfig')
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#11 C:\xampp\htdocs\labtig\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2018-10-10 15:19:30 Error: [Cake\Database\Exception] Cannot describe mapconfig. It has 0 columns. in C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 99
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('mapconfig', Array)
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('mapconfig')
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'mapconfig', 'Mapconfig')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Mapconfig')
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ModelTask->main('mapconfig')
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#11 C:\xampp\htdocs\labtig\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+

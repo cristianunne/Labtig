@@ -27,22 +27,55 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->meta('icon') ?>
 
     <?= $this->Html->css('bootstrap.min') ?>
+    <?= $this->Html->css('font-awesome/css/font-awesome.min.css') ?>
+    <?= $this->Html->css('bower_components/Ionicons/css/ionicons.min.css') ?>
+    <?= $this->Html->css('bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css') ?>
+    <?= $this->Html->css('dist/css/AdminLTE.min.css') ?>
+    <?= $this->Html->css('dist/css/skins/_all-skins.min.css') ?>
+    <?= $this->Html->css('bower_components/morris.js/morris.css') ?>
+    <?= $this->Html->css('bower_components/jvectormap/jquery-jvectormap.css') ?>
+    <?= $this->Html->css('bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css') ?>
+    <?= $this->Html->css('bower_components/bootstrap-daterangepicker/daterangepicker.css') ?>
+    <?= $this->Html->css('bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') ?>
+
+
+
     <?= $this->Html->script('jquery-3.3.1.min.js') ?>
     <?= $this->Html->script('bootstrap.min') ?>
+
+
+    <?= $this->Html->script('bower_components/moment/min/moment.min.js') ?>
+    <?= $this->Html->script('bower_components/bootstrap-daterangepicker/daterangepicker.js') ?>
+    <?= $this->Html->script('bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js') ?>
+    <?= $this->Html->script('bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js') ?>
+    <?= $this->Html->script('bower_components/jquery-slimscroll/jquery.slimscroll.min.js') ?>
+    <?= $this->Html->script('bower_components/fastclick/lib/fastclick.js') ?>
+    <?= $this->Html->script('bower_components/fastclick/lib/fastclick.js') ?>
+    <?= $this->Html->script('adminlte.js') ?>
+
+    <?= $this->Html->script('datatables.net/js/jquery.dataTables.min.js') ?>
+    <?= $this->Html->script('datatables.net-bs/js/dataTables.bootstrap.min.js') ?>
+
+    <?= $this->Html->script('svg-with-js/js/fontawesome-all.js') ?>
+
+    <?= $this->Html->script('li_change.js') ?>
+
+
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
-<body>
-    <?= $this->Flash->render() ?>
-    <div class="container clearfix">
+<body id="body">
 
-        <?= $this->fetch('content') ?>
+<div class="wrapper">
 
-    </div>
+    <?= $this->fetch('content') ?>
 
-    <footer>
-    </footer>
+</div>
+<footer>
+</footer>
+
+
 </body>
 </html>
