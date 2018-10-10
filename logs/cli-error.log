@@ -1,0 +1,60 @@
+2018-10-10 13:16:11 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Postgres cannot be used due to a missing PHP extension or unmet dependency in C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Connection.php on line 179
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Postgres',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Connection.php(120): Cake\Database\Connection->setDriver(Object(Cake\Database\Driver\Postgres), Array)
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(97): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(216): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php(128): Cake\ORM\Locator\TableLocator->get('Index', Array)
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php(69): Bake\Shell\Task\ControllerTask->bake('Index')
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ControllerTask->main('index')
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#11 C:\xampp\htdocs\labtig\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2018-10-10 13:16:58 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Postgres cannot be used due to a missing PHP extension or unmet dependency in C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Connection.php on line 179
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Postgres',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Connection.php(120): Cake\Database\Connection->setDriver(Object(Cake\Database\Driver\Postgres), Array)
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(97): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(216): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php(128): Cake\ORM\Locator\TableLocator->get('Index', Array)
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php(69): Bake\Shell\Task\ControllerTask->bake('Index')
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ControllerTask->main('index')
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#11 C:\xampp\htdocs\labtig\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2018-10-10 13:19:11 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Postgres cannot be used due to a missing PHP extension or unmet dependency in C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Connection.php on line 179
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Postgres',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Connection.php(120): Cake\Database\Connection->setDriver(Object(Cake\Database\Driver\Postgres), Array)
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(97): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(216): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php(128): Cake\ORM\Locator\TableLocator->get('Index', Array)
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php(69): Bake\Shell\Task\ControllerTask->bake('Index')
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\Shell.php(532): Bake\Shell\Task\ControllerTask->main('index')
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#11 C:\xampp\htdocs\labtig\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+

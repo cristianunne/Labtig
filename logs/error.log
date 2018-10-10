@@ -1,0 +1,1217 @@
+2018-10-10 12:52:57 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 29]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:52:57 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 29
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:53:06 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 29]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:53:06 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 29
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:56:36 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 29]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:56:36 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 29
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:56:36 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 29]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:56:36 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 29
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:56:37 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 29]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:56:37 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 29
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:56:37 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 29]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:56:37 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 29
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:56:38 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 29]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:56:38 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 29
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:56:38 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 29]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:56:38 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 29
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:56:38 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 29]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:56:38 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 29
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:56:38 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 29]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:56:38 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 29
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:57:19 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:57:19 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 30
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:57:20 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:57:20 Error: [Cake\Error\FatalErrorException] Trait 'App\View\UIViewTrait' not found in C:\xampp\htdocs\labtig\src\View\AppView.php on line 30
+Request URL: /
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-10-10 12:58:50 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:58:50 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUi()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 12:58:50 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUi()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 12:59:02 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /labtig/debug-kit/toolbar/11595407-4ce2-4c19-bf1d-c624a46c0e42
+Referer URL: http://localhost/labtig/labtig/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:59:02 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUi()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 12:59:02 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUi()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 12:59:13 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:59:13 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUi()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 12:59:13 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUi()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 12:59:45 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:59:45 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 12:59:45 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 12:59:47 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 12:59:47 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 12:59:47 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:07 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:07 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:07 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:08 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:08 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:08 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:09 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:10 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:10 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:10 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:10 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:10 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:10 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:10 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:10 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:10 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:10 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:10 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:10 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:11 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:11 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:11 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:11 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:11 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:11 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:11 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:11 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:11 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:11 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:11 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:11 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:12 Error: Fatal Error (1): Trait 'App\View\UIViewTrait' not found in [C:\xampp\htdocs\labtig\src\View\AppView.php, line 30]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2018-10-10 13:02:12 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#10 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#11 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
+2018-10-10 13:02:12 Error: Fatal Error (256): [Error] Call to undefined method App\View\AppView::initializeUI()
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(371): App\View\AppView->initialize()
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewBuilder.php(640): Cake\View\View->__construct(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager), Array)
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php(123): Cake\View\ViewBuilder->build(Array, Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Event\EventManager))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(789): Cake\Controller\Controller->createView()
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(329): Cake\Controller\Controller->render('fatalError')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(205): Cake\Error\ExceptionRenderer->_outputMessage('fatalError')
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(137): Cake\Error\ExceptionRenderer->render()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Cake\Error\FatalErrorException))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(139): Cake\Error\BaseErrorHandler->handleFatalError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180)
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\config\bootstrap.php(42): Cake\Error\BaseErrorHandler->handleError(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#11 [internal function]: Cake\Core\BasePlugin->{closure}(256, '[Error] Call to...', 'C:\\xampp\\htdocs...', 180, Array)
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(180): trigger_error('[Error] Call to...', 256)
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php(141): Cake\Error\ErrorHandler->_logInternalError(Object(Error))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(193): Cake\Error\ErrorHandler->_displayException(Object(Error))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(231): Cake\Error\BaseErrorHandler->handleException(Object(Cake\Error\FatalErrorException))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\View...', 'C:\\xampp\\htdocs...', 30)
+#17 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#18 {main} in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\ErrorHandler.php, line 180]
+
+
