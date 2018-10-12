@@ -1,6 +1,7 @@
 
 <?= $this->Html->script('index/index.js') ?>
 
+
 <?= $this->element('header')?>
 <?= $this->element('sidebar')?>
 

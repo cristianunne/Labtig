@@ -20,6 +20,13 @@
 
         <ul class="sidebar-menu" data-widget="tree">
 
+            <li class="header">INICIO</li>
+
+            <li>
+
+                <?= $this->Html->link('<i class="fa fa-home"></i> Inicio', ['controller' => 'Admin', 'action' => 'index'], [ 'escape' => false]) ?>
+            </li>
+
             <li class="header">CONFIGURACIONES GENERALES</li>
 
             <li id="li_Mapa" class="treeview">
@@ -31,8 +38,9 @@
                 </a>
                 <ul class="treeview-menu">
                     <li class="active">
-                        <?= $this->Html->link('<i class="fa fa-eye"></i> Ver Configuraciones', ['controller' => 'Mapconfig', 'action' => 'index', '?' =>
-                            ['Accion' => 'Ver Confuguraciones de Mapa', 'Categoria' => 'Mapa']], ['escape' => false]) ?>
+
+
+                        <?= $this->Html->link('<i class="fa fa-eye"></i> Ver Configuraciones', ['controller' => 'Admin', 'action' => 'MapConfig'], ['escape' => false]) ?>
                     </li>
                 </ul>
 
