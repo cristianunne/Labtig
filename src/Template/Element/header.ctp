@@ -49,7 +49,7 @@
                                 <a href="#" class="btn btn-default btn-flat">Profile</a>
                             </div>
                             <div class="pull-right">
-                               cristian
+                                <?= $this->Html->link('Salir', ['controller' => 'Users', 'action' => 'logout'], ['class' => 'btn btn-default btn-flat'], ['escape' => false]) ?>
                             </div>
                         </li>
                     </ul>

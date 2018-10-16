@@ -12,6 +12,7 @@
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
+
     <?= $this->Flash->render() ?>
 
     <section class="content">

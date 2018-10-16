@@ -1,3 +1,11 @@
+
+
+//Variables usada para cargar los datos
+var mapconfig = null;
+var capasbase = null;
+
+var capasBaseList = [];
+
 $(function()
 {
 
@@ -39,22 +47,45 @@ $(function()
             if (data != null){
                 //Remplazo los corchetes por los parentesis
                 data.dataconfig['center'] = transformToArray(data.dataconfig['center'])
-                settingMapParmas(data);
+
+                console.log(data);
+                mapconfig = data.dataconfig;
+                capasbase = data.capasbase;
+
+                //Inicializo el Mapa
+                init();
+
 
             }
 
-
-
         }
     });
+
 
 
 });
 
 var mymap = null;
 
+
+function init()
+{
+    if (mapconfig != null){
+
+        if (settingMapParmas()){
+            loadBaseMaps();
+        }
+
+        //Si el mapa estuvo ok, cargo las capas base
+
+
+    }
+
+
+}
+
 //Funcion que setea los parametros iniciales del Mapa
-function settingMapParmas(params)
+function settingMapParmas()
 {
     //Creo las vaibales de la Configuracion inicial del mapa
     var crs = null;
@@ -65,12 +96,12 @@ function settingMapParmas(params)
     var renderer = null;
 
     //Asigno los valores a las variables
-    crs = params.dataconfig['crs'];
-    center = JSON.parse(params.dataconfig['center']);
-    zoom = params.dataconfig['zoom'];
-    minzoom = params.dataconfig['minzoom'];
-    maxzoom = params.dataconfig['maxzoom'];
-    renderer = params.dataconfig['renderer'];
+    crs = mapconfig['crs'];
+    center = JSON.parse(mapconfig['center']);
+    zoom = mapconfig['zoom'];
+    minzoom = mapconfig['minzoom'];
+    maxzoom = mapconfig['maxzoom'];
+    renderer = mapconfig['renderer'];
 
     if (center == null || minzoom == null){
         //Retorno un cartel informando que se debe configurar o establezco uno por defecto
@@ -80,39 +111,70 @@ function settingMapParmas(params)
         mymap = L.map('mapid', {minZoom: minzoom})
             .setView(center, zoom);
 
-        /*var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(mymap);
+        return true;
+        //Cargo las capas base como prueba
+
+    }
 
 
-        var OpenTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-            maxZoom: 17,
-            attribution: 'Map data: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-        }).addTo(mymap);
+}
+
+function loadBaseMaps()
+{
+
+    //Variables del BaseMap
+    var urlservice = null;
+    var attribution = null;
+    var subdomain = null;
+    var minzoom = null;
+    var maxzoom = null;
+    var format = null;
+    var time = null;
+    var tilematrixset = null;
+    var opacity = null;
+    var nombre = null;
+    var active = null;
+
+    var layerControl = new L.control.layers();
 
 
-        var CartoDB_DarkMatter = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-            subdomains: 'abcd',
-            maxZoom: 19
-        }).addTo(mymap);*/
+    if (capasbase == null){
 
-        var NASAGIBS_ViirsEarthAtNight2012 = L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
-            attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
-            minZoom: 1,
-            maxZoom: 8,
-            format: 'jpg',
-            time: '',
-            tilematrixset: 'GoogleMapsCompatible_Level'
-        }).addTo(mymap);
+    } else {
+        //Proceso las capas base y cargo al mapa
+        for (var i = 0; i < capasbase.length; i++){
 
+            var capa = capasbase[i];
+            $.each(capasbase[i], function(j, item) {
+                if (item === null){
+                    //Elimina los datos vaciones de un arreglo
+                    delete capasbase[i][j];
+                }
+            });
+        }
+
+        //console.log(capasbase);
+        for (var i = 0; i < capasbase.length; i++){
+
+            var capa = capasbase[i];
+
+            var capatomap = L.tileLayer(capa['urlservice'], {
+                capa
+            });
+
+
+            layerControl.addBaseLayer(capatomap, capa['nombre'].toString());
+            layerControl.addTo(mymap);
+
+        }
 
 
     }
 
 
 }
+
+
 
 function transformToArray(data) {
 

@@ -38,19 +38,40 @@
                 </a>
                 <ul class="treeview-menu">
                     <li class="active">
+                        <?= $this->Html->link('<i class="fa fa-eye"></i> Ver Configuraciones', ['controller' => 'Mapconfig', 'action' => 'index', '?' => ['Accion' => 'Ver Configuraciones de Mapa', 'Categoria' => 'Mapa']], ['escape' => false]) ?>
+                    </li>
+
+                    <li class="active">
 
 
-                        <?= $this->Html->link('<i class="fa fa-eye"></i> Ver Configuraciones', ['controller' => 'Admin', 'action' => 'MapConfig'], ['escape' => false]) ?>
+                        <?= $this->Html->link('<i class="fa fa-edit"></i> Editar Configuraciones', ['controller' => 'Mapconfig', 'action' => 'add', '?' => ['Accion' => 'Editar Configuraciones de Mapa', 'Categoria' => 'Mapa']], ['escape' => false]) ?>
                     </li>
                 </ul>
 
             </li>
 
+            <li id="li_CapasBase" class="treeview">
+                <a href="#">
+                    <i class="fas fa-dot-circle"></i><span> Capas Base</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active">
+                        <?= $this->Html->link('<i class="fa fa-eye"></i> Ver', ['controller' => 'Capasbase', 'action' => 'index', '?' => ['Accion' => 'Ver Capas Base', 'Categoria' => 'CapasBase']], ['escape' => false]) ?>
+                    </li>
+
+                    <li class="active">
 
 
+                        <?= $this->Html->link('<i class="fa fa-plus"></i> Agregar', ['controller' => 'Capasbase', 'action' => 'add', '?' => ['Accion' => 'Agregar Capas Base', 'Categoria' => 'CapasBase']], ['escape' => false]) ?>
+                    </li>
+                </ul>
+
+            </li>
 
         </ul>
-
 
     </section>
 <!-- /.sidebar -->

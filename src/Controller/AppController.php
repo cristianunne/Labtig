@@ -46,6 +46,36 @@ class AppController extends Controller
         ]);
         $this->loadComponent('Flash');
 
+        $this->loadComponent('Auth', [
+
+            'authorize' => ['Controller'],
+            'authenticate' => [
+                'Form' => [
+                    'fields' => [
+                        'username' => 'email',
+                        'password' => 'password'
+                    ],
+                    'finder' => 'auten'
+                ]
+            ],
+            'loginAction' => [
+                'controller' => 'Users',
+                'action' => 'login'
+            ],
+            'loginRedirect' => [
+                'controller' => 'Admin',
+                'action' => 'index'
+            ],
+            'logoutRedirect' => [
+                'controller' => 'Users',
+                'action' => 'login'
+            ]
+        ]);
+
+        $this->loadComponent('Cookie');
+
+
+
         /*
          * Enable the following component for recommended CakePHP security settings.
          * see https://book.cakephp.org/3.0/en/controllers/components/security.html
@@ -57,5 +87,23 @@ class AppController extends Controller
         $this->response->type('json');
         $this->response->body(json_encode($data));
         return $this->response;
+    }
+
+    public function beforeFilter(Event $event)
+    {
+        $this->set('current_user', $this->Auth->user());
+        // Allow only the index action.
+
+    }
+
+    public function isAuthorized($user)
+    {
+        if(isset($user['role']) && $user['role'] === 'admin')
+        {
+            return true;
+        }
+
+        return false;
+
     }
 }

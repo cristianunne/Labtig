@@ -10,6 +10,18 @@ use App\Controller\AppController;
 class AdminController extends AppController
 {
 
+    public function isAuthorized($user)
+    {
+        if(isset($user['role']) and $user['role'] === 'admin')
+        {
+            if(in_array($this->request->action, ['index', 'login', 'logout', 'view']))
+            {
+                return true;
+            }
+        }
+
+        return parent::isAuthorized($user);
+    }
 
     public function index()
     {

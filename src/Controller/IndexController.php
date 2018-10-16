@@ -3,6 +3,7 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 
+
 /**
  * Index Controller
  *
@@ -10,6 +11,14 @@ use App\Controller\AppController;
 class IndexController extends AppController
 {
 
+    /*
+     * Permite el Ingreso a Esta accion sin necesidad de especificar el componente de Autentificacion
+     */
+    public function beforeFilter(\Cake\Event\Event $event)
+    {
+        // allow all action
+        $this->Auth->allow();
+    }
 
     public function index()
     {
@@ -19,6 +28,10 @@ class IndexController extends AppController
         $mapConfigData = $tablaMapConfig->find('all')->first();
         //debug($mapConfigData);
         $this->render();
+
+
+        $this->Cookie->write('usuario_id', 10);
+        $this->Cookie->write('usuario_nombre', 'hugo');
     }
 
 
@@ -27,6 +40,9 @@ class IndexController extends AppController
      */
     public function getConfigMap()
     {
+        //Traio todas las configuraciones necesarias
+
+
         $this->layout = null;
         $this->autoRender = false;
 
@@ -36,8 +52,18 @@ class IndexController extends AppController
             $tablaMapConfig = $this->loadModel('Mapconfig');
             $mapConfigData = $tablaMapConfig->find('all')->first();
 
+
+            $tablaCapasBase = $this->loadModel('Capasbase');
+            $capasbase = $tablaCapasBase->find('all');
+
+
+            //Recorro los nombres de las capas base y creo un arreglo
+
+
+
             $res = [
-                'dataconfig' => $mapConfigData
+                'dataconfig' => $mapConfigData,
+                'capasbase' => $capasbase
             ];
 
             return $this->json($res);

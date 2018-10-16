@@ -55,6 +55,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
 
+
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
@@ -77,4 +78,11 @@ Router::scope('/', function (RouteBuilder $routes) {
      * routes you want in your application.
      */
     $routes->fallbacks(DashedRoute::class);
+});
+
+//ES MEJOR USAR EL SCOPE PARA DEFINIR RUTAS
+Router::scope('/Admin', function ($routes) {
+    $routes->connect('/', ['controller' => 'Users', 'action' => 'login']);
+    Router::connect('/Registrarse', ['controller' => 'Users', 'action' => 'add']);
+
 });
