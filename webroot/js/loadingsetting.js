@@ -4,37 +4,13 @@
 var mapconfig = null;
 var capasbase = null;
 
+//Es la variable que genera el controlador de las capas bases
+var layerControl = new L.control.layers();
+
 var capasBaseList = [];
 
 $(function()
 {
-
-        /*var targeturl = $(this).attr('rel');
-        $.ajax({
-            type: 'get',
-            dataType:'JSON',
-            url: "<?php echo $this->Url->build(['controller' => 'index', 'action' => 'simpleAction']); ?>",
-            beforeSend: function(xhr)
-            {
-                xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-            },
-            success: function(response)
-            {
-                if (response.result)
-                {
-                    var result = response.result;
-
-                    $('#result').html(result);
-                }
-            },
-            error: function(e)
-            {
-                alert("An error occurred: " + e.responseText.message);
-                console.log(e);
-            }
-        });*/
-
-
     $.ajax({
         url: 'index/getConfigMap',
         beforeSend: function(xhr)
@@ -55,12 +31,11 @@ $(function()
                 //Inicializo el Mapa
                 init();
 
-
             }
-
-        }
+        }, error:function () {
+            //Muestro algun mensaje de error
+        } 
     });
-
 
 
 });
@@ -121,7 +96,6 @@ function settingMapParmas()
 
 function loadBaseMaps()
 {
-
     //Variables del BaseMap
     var urlservice = null;
     var attribution = null;
@@ -135,13 +109,11 @@ function loadBaseMaps()
     var nombre = null;
     var active = null;
 
-    var layerControl = new L.control.layers();
-
-
     if (capasbase == null){
 
     } else {
         //Proceso las capas base y cargo al mapa
+        var ini = 0;
         for (var i = 0; i < capasbase.length; i++){
 
             var capa = capasbase[i];
@@ -153,25 +125,35 @@ function loadBaseMaps()
             });
         }
 
+
+
         //console.log(capasbase);
         for (var i = 0; i < capasbase.length; i++){
 
             var capa = capasbase[i];
+            var active_capa = capa['active'];
+            //console.log(capa['active']);
+            if(active_capa == true){
+                //Controla la carga de solo 1 capa como base map
+                if (ini == 0){
+                    var capatomap = L.tileLayer(capa['urlservice'], {
+                        capa
+                    }).addTo(mymap);
+                } else {
+                    var capatomap = L.tileLayer(capa['urlservice'], {
+                        capa
+                    });
+                }
+                ini++;
+                layerControl.addBaseLayer(capatomap, capa['nombre'].toString());
+                layerControl.addTo(mymap);
 
-            var capatomap = L.tileLayer(capa['urlservice'], {
-                capa
-            });
+            }
 
-
-            layerControl.addBaseLayer(capatomap, capa['nombre'].toString());
-            layerControl.addTo(mymap);
 
         }
 
-
     }
-
-
 }
 
 

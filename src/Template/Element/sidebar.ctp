@@ -50,6 +50,9 @@
 
             </li>
 
+
+            <li class="header">ADMINISTRACIÓN DE CAPAS</li>
+
             <li id="li_CapasBase" class="treeview">
                 <a href="#">
                     <i class="fas fa-dot-circle"></i><span> Capas Base</span>
@@ -66,6 +69,53 @@
 
 
                         <?= $this->Html->link('<i class="fa fa-plus"></i> Agregar', ['controller' => 'Capasbase', 'action' => 'add', '?' => ['Accion' => 'Agregar Capas Base', 'Categoria' => 'CapasBase']], ['escape' => false]) ?>
+                    </li>
+                </ul>
+
+            </li>
+
+
+            <li class="header">CATEGORÍAS CAPAS</li>
+
+            <li id="li_CatCapas" class="treeview">
+                <a href="#">
+                    <i class="fas fa-clone"></i><span> Categorìas Temáticas</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active">
+                        <?= $this->Html->link('<i class="fa fa-eye"></i> Ver', ['controller' => 'Categoriascapas', 'action' => 'index', '?' => ['Accion' => 'Ver Categorìas Temàticas de Capas', 'Categoria' => 'CatCapas']], ['escape' => false]) ?>
+                    </li>
+
+                    <li class="active">
+
+
+                        <?= $this->Html->link('<i class="fa fa-plus"></i> Agregar', ['controller' => 'Categoriascapas
+                        ', 'action' => 'add', '?' => ['Accion' => 'Agregar Categorìas Temàticas de Capas', 'Categoria' => 'CatCapas']], ['escape' => false]) ?>
+                    </li>
+                </ul>
+
+            </li>
+
+            <li id="li_Escalas" class="treeview">
+                <a href="#">
+                    <i class="far fa-clone"></i><span> Escalas</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active">
+                        <?= $this->Html->link('<i class="fa fa-eye"></i> Ver', ['controller' => 'Escalascapas', 'action' => 'index', '?' => ['Accion' => 'Ver Escalas de Capas', 'Categoria' => 'Escalas']], ['escape' => false]) ?>
+                    </li>
+
+                    <li class="active">
+
+
+                        <?= $this->Html->link('<i class="fa fa-plus"></i> Agregar', ['controller' => 'Escalascapas
+                        ', 'action' => 'add', '?' => ['Accion' => 'Agregar Escalas de Capas', 'Categoria' => 'Escalas']], ['escape' => false]) ?>
                     </li>
                 </ul>
 

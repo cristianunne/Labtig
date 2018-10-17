@@ -17,7 +17,7 @@
                         </div>
                         <!-- /.box-header -->
                         <div class="box-body table-responsive" >
-                            <table id="example2" class="table table-bordered table-hover dataTable">
+                            <table id="example2" class="table table-bordered table-hover dataTable" style="font-size: smaller;">
                                 <thead>
                                 <tr>
                                     <th scope="col"><?= $this->Paginator->sort('Id:') ?></th>
@@ -40,12 +40,12 @@
                                 <?php foreach ($capasbase as $capas): ?>
                                     <tr>
                                         <td style="font-weight: bold; text-align: center;"><?= h($capas->idcapasbase) ?></td>
-                                        <td style="color: #2981a2;"><?= h($capas->nombre) ?></td>
+                                        <td style="color: #2981a2; vertical-align: middle;"><?= h($capas->nombre) ?></td>
                                         <td><?= h($capas->urlservice) ?></td>
                                         <td><?= h($capas->attribution) ?></td>
                                         <td><?= h($capas->subdomain) ?></td>
-                                        <td style="text-align: center;"><?= h($capas->minzoom) ?></td>
-                                        <td style="text-align: center;"><?= h($capas->maxzoom) ?></td>
+                                        <td style="text-align: center; vertical-align: middle;"><?= h($capas->minzoom) ?></td>
+                                        <td style="text-align: center; vertical-align: middle;"><?= h($capas->maxzoom) ?></td>
                                         <td><?= h($capas->format) ?></td>
                                         <td><?= h($capas->time) ?></td>
                                         <td><?= h($capas->tilematrixset) ?></td>
@@ -53,18 +53,19 @@
 
 
                                         <?php if ($capas->active == 0 || $capas->active == null): ?>
-                                            <td style="text-align: center;">No</td>
+                                            <td style="text-align: center; vertical-align: middle;">No</td>
                                         <?php else: ?>
-                                            <td style="text-align: center;">Si</td>
+                                            <td style="text-align: center; vertical-align: middle;">Si</td>
                                         <?php endif; ?>
-
-
-
 
                                         <td align="center" valign="middle">
 
                                             <?= $this->Html->link($this->Html->tag('span', '', ['class' => 'glyphicon glyphicon-edit', 'aria-hidden' => 'true']),
                                                 ['controller' => 'Capasbase', 'action' => 'edit','?' => ['Accion' => 'Editar Capas Base', 'Categoria' => 'CapasBase', 'id' => $capas->idcapasbase]], ['class' => 'btn btn-warning', 'escape' => false]) ?>
+
+                                            <?= $this->Form->postLink(__($this->Html->tag('span', '', ['class' => 'glyphicon glyphicon-remove', 'aria-hidden' => 'true'])), ['action' => 'delete', $capas->idcapasbase],
+                                                ['confirm' => __('Eliminar la Capa Base: {0}?', $capas->idcapasbase), 'class' => 'btn btn-danger', 'style' => 'margin-top: 5px', 'escape' => false]) ?>
+
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>
