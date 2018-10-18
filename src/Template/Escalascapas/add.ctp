@@ -34,7 +34,7 @@
 
                     <div class="box-footer">
                         <?= $this->Form->button('Agregar', ['class' => 'btn btn-success pull-right']) ?>
-                        <?= $this->Html->link('Volver', ['controller' => 'Categoriascapas', 'action' => 'index', '?' => ['Accion' => 'Ver Escalas de Capas', 'Categoria' => 'Escalas']],
+                        <?= $this->Html->link('Volver', ['controller' => 'Escalascapas', 'action' => 'index', '?' => ['Accion' => 'Ver Escalas de Capas', 'Categoria' => 'Escalas']],
                             ['class' => 'btn btn-default pull-left'], ['escape' => false]) ?>
 
                     </div>

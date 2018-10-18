@@ -3,6 +3,7 @@
 //Variables usada para cargar los datos
 var mapconfig = null;
 var capasbase = null;
+var layersoverlay = null;
 
 //Es la variable que genera el controlador de las capas bases
 var layerControl = new L.control.layers();
@@ -27,6 +28,7 @@ $(function()
                 console.log(data);
                 mapconfig = data.dataconfig;
                 capasbase = data.capasbase;
+                layersoverlay = data.layersoverlay;
 
                 //Inicializo el Mapa
                 init();
@@ -49,6 +51,8 @@ function init()
 
         if (settingMapParmas()){
             loadBaseMaps();
+            loadLayers()
+            layerControl.addTo(mymap);
         }
 
         //Si el mapa estuvo ok, cargo las capas base
@@ -146,7 +150,6 @@ function loadBaseMaps()
                 }
                 ini++;
                 layerControl.addBaseLayer(capatomap, capa['nombre'].toString());
-                layerControl.addTo(mymap);
 
             }
 
@@ -154,6 +157,57 @@ function loadBaseMaps()
         }
 
     }
+}
+
+
+function loadLayers()
+{
+    if (layersoverlay == null){
+        console.log(layersoverlay);
+    } else {
+        //Proceso las capas base y cargo al mapa
+        var ini = 0;
+        for (var i = 0; i < layersoverlay.length; i++){
+
+            var capa = layersoverlay[i];
+            $.each(layersoverlay[i], function(j, item) {
+                if (item === null){
+                    //Elimina los datos vaciones de un arreglo
+                    delete layersoverlay[i][j];
+                }
+            });
+        }
+
+
+
+        console.log(layersoverlay);
+        for (var i = 0; i < layersoverlay.length; i++){
+
+            var capa = layersoverlay[i];
+            var active_capa = capa['nombre'];
+            console.log(active_capa);
+            var capatomap = L.tileLayer.wms(capa['urlservice'], {
+                'layers' : capa['layers'],
+                'styles' : capa['styles'],
+                'transparent' : capa['transparent'],
+                'format' : capa['format'],
+                'version' : capa['version'],
+                'crs' : capa['crs'],
+                'minZoom' : capa['minzoom'],
+                'maxZoom' : capa['maxzoom'],
+                'opacity' : capa['opacity'],
+                'uppercase' : capa['uppercase'],
+                'attribution' : capa['attribution']
+            });
+
+
+            layerControl.addOverlay(capatomap, capa['nombre'].toString());
+
+
+        }
+
+    }
+
 }
 
 

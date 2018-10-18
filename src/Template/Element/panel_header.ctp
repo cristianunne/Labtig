@@ -23,16 +23,32 @@
     <?php if($categoria == 'CapasBase'):  ?>
 
         <h1>
-            Mapa
+            Capas
             <small>Configuraciones de las Capas Base</small>
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fas fa-dot-circle"></i> Mapa</a></li>
+            <li><a href="#"><i class="fas fa-dot-circle"></i> Capas</a></li>
 
             <li class="active"><?php echo $action ?></li>
         </ol>
 
     <?php endif ?>
+
+    <?php if($categoria == 'Layers'):  ?>
+
+        <h1>
+            Mapa
+            <small>Configuraciones de los Layers</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fas fa-chess-board"></i> Layers</a></li>
+
+            <li class="active"><?php echo $action ?></li>
+        </ol>
+
+    <?php endif ?>
+
+
 
     <?php if($categoria == 'CatCapas'):  ?>
 
@@ -48,6 +64,7 @@
 
     <?php endif ?>
 
+
     <?php if($categoria == 'Escalas'):  ?>
 
         <h1>
@@ -55,7 +72,7 @@
             <small>Escalas de Capas</small>
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fas fa-dot-circle"></i>Escalas</a></li>
+            <li><a href="#"><i class="far fa-clone"></i> Escalas</a></li>
 
             <li class="active"><?php echo $action ?></li>
         </ol>

@@ -74,6 +74,27 @@
 
             </li>
 
+            <li id="li_Layers" class="treeview">
+                <a href="#">
+                    <i class="fas fa-chess-board"></i><span> Layers</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active">
+                        <?= $this->Html->link('<i class="fa fa-eye"></i> Ver', ['controller' => 'Layers', 'action' => 'index', '?' => ['Accion' => 'Ver Layers', 'Categoria' => 'Layers']], ['escape' => false]) ?>
+                    </li>
+
+                    <li class="active">
+
+
+                        <?= $this->Html->link('<i class="fa fa-plus"></i> Agregar', ['controller' => 'Layers', 'action' => 'add', '?' => ['Accion' => 'Agregar Layers', 'Categoria' => 'Layers']], ['escape' => false]) ?>
+                    </li>
+                </ul>
+
+            </li>
+
 
             <li class="header">CATEGORÍAS CAPAS</li>
 

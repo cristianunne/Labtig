@@ -53,8 +53,13 @@ class IndexController extends AppController
             $mapConfigData = $tablaMapConfig->find('all')->first();
 
 
+            //En ambos casos deberia filtrar por el campo activo
             $tablaCapasBase = $this->loadModel('Capasbase');
             $capasbase = $tablaCapasBase->find('all');
+
+            $tablaLayers = $this->loadModel('Layers');
+            $layers = $tablaLayers->find()->select(['idlayer', 'nombre', 'urlservice', 'styles', 'format', 'transparent', 'version', 'crs', 'uppercase', 'minzoom',
+                'maxzoom', 'opacity', 'attribution', 'layers']);
 
 
             //Recorro los nombres de las capas base y creo un arreglo
@@ -63,7 +68,8 @@ class IndexController extends AppController
 
             $res = [
                 'dataconfig' => $mapConfigData,
-                'capasbase' => $capasbase
+                'capasbase' => $capasbase,
+                'layersoverlay' => $layers
             ];
 
             return $this->json($res);

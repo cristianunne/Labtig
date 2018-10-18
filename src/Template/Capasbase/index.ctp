@@ -39,7 +39,7 @@
                                 <tbody>
                                 <?php foreach ($capasbase as $capas): ?>
                                     <tr>
-                                        <td style="font-weight: bold; text-align: center;"><?= h($capas->idcapasbase) ?></td>
+                                        <td style="font-weight: bold; text-align: center; vertical-align: middle;"><?= h($capas->idcapasbase) ?></td>
                                         <td style="color: #2981a2; vertical-align: middle;"><?= h($capas->nombre) ?></td>
                                         <td><?= h($capas->urlservice) ?></td>
                                         <td><?= h($capas->attribution) ?></td>
