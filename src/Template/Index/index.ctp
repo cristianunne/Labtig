@@ -4,7 +4,15 @@
 <?= $this->Html->script('leaflet/leaflet.js') ?>
 <?= $this->Html->script('loadingsetting.js') ?>
 
+<?= $this->element('header_index')?>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <section class="content" style="padding: 0px 0px 0px 0px;">
+        <div id="mapid" style="min-height: 90vh !important; height: 90vh;">
 
-<div id="mapid" style="height: 1000px;">
+        </div>
+    </section>
 
 </div>
+
+<?= $this->element('footer')?>
