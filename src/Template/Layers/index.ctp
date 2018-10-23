@@ -23,6 +23,7 @@
                                 <th scope="col"><?= $this->Paginator->sort('Id:') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Nombre:') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('URL Servicio') ?></th>
+                                <th scope="col"><?= $this->Paginator->sort('Layers') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Styles') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Formato') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Transparente') ?></th>
@@ -46,6 +47,7 @@
                                     <td style="font-weight: bold; text-align: center; vertical-align: middle;"><?= h($capas->idlayer) ?></td>
                                     <td style="color: #2981a2; vertical-align: middle;"><?= h($capas->nombre) ?></td>
                                     <td style="text-align: center; vertical-align: middle;"><?= h($capas->urlservice) ?></td>
+                                    <td style="text-align: left; vertical-align: middle;"><?= h($capas->layers) ?></td>
                                     <td style="text-align: center; vertical-align: middle;"><?= h($capas->styles) ?></td>
                                     <td style="text-align: center; vertical-align: middle;"><?= h($capas->format) ?></td>
                                     <?php if ($capas->transparent == 0): ?>

@@ -27,11 +27,15 @@ class IndexController extends AppController
         $tablaMapConfig = $this->loadModel('Mapconfig');
         $mapConfigData = $tablaMapConfig->find('all')->first();
         //debug($mapConfigData);
+
+        //En ambos casos deberia filtrar por el campo activo
+        $tablaCapasBase = $this->loadModel('Capasbase');
+        $capasbase = $tablaCapasBase->find('all');
+
+        $this->set(compact('capasbase'));
+
         $this->render();
 
-
-        $this->Cookie->write('usuario_id', 10);
-        $this->Cookie->write('usuario_nombre', 'hugo');
     }
 
 
@@ -56,6 +60,7 @@ class IndexController extends AppController
             //En ambos casos deberia filtrar por el campo activo
             $tablaCapasBase = $this->loadModel('Capasbase');
             $capasbase = $tablaCapasBase->find('all');
+            $countcapasbase = $capasbase->count();
 
             $tablaLayers = $this->loadModel('Layers');
             $layers = $tablaLayers->find()->select(['idlayer', 'nombre', 'urlservice', 'styles', 'format', 'transparent', 'version', 'crs', 'uppercase', 'minzoom',
@@ -69,7 +74,8 @@ class IndexController extends AppController
             $res = [
                 'dataconfig' => $mapConfigData,
                 'capasbase' => $capasbase,
-                'layersoverlay' => $layers
+                'layersoverlay' => $layers,
+                'countcapasbase' => $countcapasbase
             ];
 
             return $this->json($res);

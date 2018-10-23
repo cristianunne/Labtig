@@ -43,7 +43,7 @@ class CapasbaseController extends AppController
         $action = $data_url['Accion'];
         $categoria = $data_url['Categoria'];
 
-        $capasbase = $this->paginate($this->Capasbase);
+        $capasbase = $this->Capasbase->find();
 
         $this->set(compact('capasbase'));
         $this->set('_serialize', ['capasbase']);

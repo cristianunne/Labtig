@@ -1,4 +1,4 @@
-<header class="main-header">
+<header class="main-header" xmlns:margin-top="http://www.w3.org/1999/xhtml">
     <!-- Logo -->
     <a href="http://www.pindosa.com.ar/es/index_interior.php" target="_blank" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -31,209 +31,34 @@
                     <!-- User Body COntextual-->
                     <ul class="dropdown-menu" style="max-height: 95vh; overflow:scroll">
 
-
                             <!-- DEBO GENERAR LA CANTIDAD DE LI SEGUN LA LISTA DE MAPAS BASE QUE HAYA-->
 
+                        <?php $i = 1;?>
 
-
-                            <li style="min-height: 50px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
+                        <?php foreach ($capasbase as $capabase): ?>
 
                             <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
-                            <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
-                                  <span class="item">
-                                    <span class="item-left">
-                                         <?php echo $this->Html->image('mapa_base.png', ["alt" => 'Capas Base' , "class" => 'img-rounded', 'style' => 'width: 50px; height: 50px;']) ?>
-                                        <span class="item-info">
-                                            <span>Item name</span>
-                                        </span>
-                                    </span>
-                                    <span class="item-right">
-                                        <button class="btn btn-xs btn-danger pull-right" style="margin-top: 15px;">x</button>
-                                    </span>
-                                </span>
-                            </li>
+                                <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                                    <div class="row" style="margin-left: 0px; margin-right: 0px;">
+                                        <div class="col-md-3" style="padding-right: 0px; padding-left: 0px;">
+                                            <div id="<?= h("mapa_". $i) ?>" attr="<?= h($capabase->idcapasbase) ?>" style="width: 50px; height: 50px; float: left;">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8" style="padding-right: 0px; padding-left: 0px;">
+                                            <p style="margin-top: 15px;"><?= h($capabase->nombre) ?></p>
+                                        </div>
 
-                        <!-- User image -->
+                                        <div class="col-md-1" style="padding-right: 0px; padding-left: 0px;">
+                                            <input id="radio_<?= h($capabase->idcapasbase) ?>" attr="<?= h($capabase->idcapasbase) ?>" type="radio" name="capasbase" class="pull-right" value="<?= h($capabase->urlservice) ?>" style="margin-top: 15px;" onclick="changeCapaBase(this)">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </li>
+                            <?php $i = $i + 1;?>
+                        <?php endforeach; ?>
+
                     </ul>
                 </li>
             </ul>

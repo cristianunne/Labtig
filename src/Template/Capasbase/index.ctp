@@ -20,8 +20,8 @@
                             <table id="example2" class="table table-bordered table-hover dataTable" style="font-size: smaller;">
                                 <thead>
                                 <tr>
-                                    <th scope="col"><?= $this->Paginator->sort('Id:') ?></th>
-                                    <th scope="col"><?= $this->Paginator->sort('Nombre:') ?></th>
+                                    <th scope="col"><?= $this->Paginator->sort('Id') ?></th>
+                                    <th scope="col"><?= $this->Paginator->sort('Nombre') ?></th>
                                     <th scope="col"><?= $this->Paginator->sort('URL Servicio') ?></th>
                                     <th scope="col"><?= $this->Paginator->sort('Atribución') ?></th>
                                     <th scope="col"><?= $this->Paginator->sort('SubDominio') ?></th>
@@ -52,7 +52,7 @@
                                         <td style="text-align: center;"><?= h($capas->opacity) ?></td>
 
 
-                                        <?php if ($capas->active == 0 || $capas->active == null): ?>
+                                        <?php if ($capas->active == false || $capas->active == null): ?>
                                             <td style="text-align: center; vertical-align: middle;">No</td>
                                         <?php else: ?>
                                             <td style="text-align: center; vertical-align: middle;">Si</td>
@@ -86,16 +86,19 @@
 
 <?= $this->element('footer')?>
 
+
 <script>
     $(function () {
 
-        $('#example2').DataTable({
+        $('#example2').removeAttr('width').DataTable({
             'paging'      : true,
             'lengthChange': false,
             'searching'   : true,
             'ordering'    : true,
             'info'        : true,
-            'autoWidth'   : true,
+            'autoWidth'   : false,
+            'fixedColumns': true
+
         })
     })
 </script>

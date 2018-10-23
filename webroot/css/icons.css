@@ -1,0 +1,31 @@
+.ico:after{
+    content: '';
+    display: block;
+    height: 2em;  /*height of icon */
+    width: 2em;  /*width of icon */
+    /*where to replace the icon */
+    top: 0px;
+    /*background */
+    background: #F8E6AE url(../img/mapa_base.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+
+
+.div-escala-menu{
+    display: block;
+    background-color: #0b58a2;
+    overflow: hidden;
+    text-overflow: clip;
+    padding: 10px 25px 10px 15px;
+    font-size: 12px;
+}
+#ahref-menu{
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+}

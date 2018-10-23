@@ -4,6 +4,7 @@
 var mapconfig = null;
 var capasbase = null;
 var layersoverlay = null;
+var countcapasbase = null;
 
 //Es la variable que genera el controlador de las capas bases
 var layerControl = new L.control.layers();
@@ -29,6 +30,7 @@ $(function()
                 mapconfig = data.dataconfig;
                 capasbase = data.capasbase;
                 layersoverlay = data.layersoverlay;
+                countcapasbase = data.countcapasbase;
 
                 //Inicializo el Mapa
                 init();
@@ -53,6 +55,8 @@ function init()
             loadBaseMaps();
             loadLayers()
             layerControl.addTo(mymap);
+
+            capasBaseManager();
         }
 
         //Si el mapa estuvo ok, cargo las capas base
@@ -129,33 +133,6 @@ function loadBaseMaps()
             });
         }
 
-
-
-        //console.log(capasbase);
-        for (var i = 0; i < capasbase.length; i++){
-
-            var capa = capasbase[i];
-            var active_capa = capa['active'];
-            //console.log(capa['active']);
-            if(active_capa == true){
-                //Controla la carga de solo 1 capa como base map
-                if (ini == 0){
-                    var capatomap = L.tileLayer(capa['urlservice'], {
-                        capa
-                    }).addTo(mymap);
-                } else {
-                    var capatomap = L.tileLayer(capa['urlservice'], {
-                        capa
-                    });
-                }
-                ini++;
-                layerControl.addBaseLayer(capatomap, capa['nombre'].toString());
-
-            }
-
-
-        }
-
     }
 }
 
@@ -163,7 +140,7 @@ function loadBaseMaps()
 function loadLayers()
 {
     if (layersoverlay == null){
-        console.log(layersoverlay);
+
     } else {
         //Proceso las capas base y cargo al mapa
         var ini = 0;
@@ -180,12 +157,10 @@ function loadLayers()
 
 
 
-        console.log(layersoverlay);
         for (var i = 0; i < layersoverlay.length; i++){
 
             var capa = layersoverlay[i];
             var active_capa = capa['nombre'];
-            console.log(active_capa);
             var capatomap = L.tileLayer.wms(capa['urlservice'], {
                 'layers' : capa['layers'],
                 'styles' : capa['styles'],
@@ -210,7 +185,105 @@ function loadLayers()
 
 }
 
+/*
+    Funcion que controla el renderizado de las capas base en el downmenu
+ */
+function capasBaseManager()
+{
+    if (countcapasbase != null){
 
+        //obtengo el id del div
+        for (var i = 1; i <= countcapasbase; i++){
+
+            var div = "mapa_" + i.toString();
+            //Obtengo el div pasandole el ID
+            var id = $("#" + div).attr('attr');
+
+            //Creo las vaibales de la Configuracion inicial del mapa
+            var crs = null;
+            var center = null;
+            var zoom = null;
+            var minzoom = null;
+            var maxzoom = null;
+            var renderer = null;
+
+            //Asigno los valores a las variables
+            crs = mapconfig['crs'];
+            center = JSON.parse(mapconfig['center']);
+            zoom = mapconfig['zoom'];
+            minzoom = mapconfig['minzoom'];
+            maxzoom = mapconfig['maxzoom'];
+            renderer = mapconfig['renderer'];
+
+            if (center == null || minzoom == null){
+                //Retorno un cartel informando que se debe configurar o establezco uno por defecto
+            } else {
+                //Todo ok, asi qeu avanzo
+
+                mymap_2 = L.map(div, {minZoom: 1, attributionControl: false, zoomControl: false})
+                    .setView([-15, -78], 0);
+
+                //recorro las capas bases y cargo segun el id
+                for (var j = 0; j < capasbase.length; j++){
+                   if(capasbase[j]['idcapasbase'] == id){
+                       var capa = capasbase[j];
+
+                       var capatomap = L.tileLayer(capasbase[j]['urlservice'], {
+                           capa
+                       }).addTo(mymap_2);
+
+                       var capatomap_2 = L.tileLayer(capasbase[j]['urlservice'], {
+                           capa,
+                           'className' : capasbase[j]['nombre']
+                       })
+
+                       //Cargo el 1er base map al mapa
+                       if (i == 1){
+                            loadFirstCapaBase(capatomap_2, id);
+                       }
+
+                   }
+                }
+
+            }
+        }
+    }
+
+
+}
+
+function loadFirstCapaBase(basemap, idinput)
+{
+    basemap.addTo(mymap);
+
+    var inputradio = $("#radio_" + idinput).prop('checked',true);
+
+}
+
+function changeCapaBase(elemento)
+{
+    var id = $(elemento).attr('attr');
+
+    mymap.eachLayer(function (layer) {
+       mymap.removeLayer(layer);
+    });
+
+    //recorro las capas bases y cargo segun el id
+    for (var j = 0; j < capasbase.length; j++){
+        if(capasbase[j]['idcapasbase'] == id){
+            var capa = capasbase[j];
+
+            var capatomap = L.tileLayer(capasbase[j]['urlservice'], {
+                capa,
+                'className' : capa['nombre']
+            }).addTo(mymap);
+
+        } else {
+
+        }
+    }
+
+}
 
 function transformToArray(data) {
 
