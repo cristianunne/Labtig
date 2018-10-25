@@ -1,7 +1,8 @@
-
+<?= $this->Html->script('index/indexmap.js') ?>
 
 <?= $this->Html->css('leaflet') ?>
 <?= $this->Html->css('icons') ?>
+<?= $this->Html->css('sidebar-index') ?>
 <?= $this->Html->script('leaflet/leaflet.js') ?>
 <?= $this->Html->script('loadingsetting.js') ?>
 

@@ -49,7 +49,7 @@
                                         </div>
 
                                         <div class="col-md-1" style="padding-right: 0px; padding-left: 0px;">
-                                            <input id="radio_<?= h($capabase->idcapasbase) ?>" attr="<?= h($capabase->idcapasbase) ?>" type="radio" name="capasbase" class="pull-right" value="<?= h($capabase->urlservice) ?>" style="margin-top: 15px;" onclick="changeCapaBase(this)">
+                                            <input id="radio_<?= h($capabase->idcapasbase) ?>" attr="<?= h($capabase->idcapasbase) ?>" type="radio" classname="<?= h($capabase->nombre) ?>" name="capasbase" class="pull-right" value="<?= h($capabase->urlservice) ?>" style="margin-top: 15px;" onclick="changeCapaBase(this)">
                                         </div>
 
                                     </div>

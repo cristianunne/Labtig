@@ -131,7 +131,15 @@ function loadBaseMaps()
                     delete capasbase[i][j];
                 }
             });
+
+
+            //Agrego el atributo de tipo de capa
+
         }
+
+        console.log(capasbase);
+
+
 
     }
 }
@@ -228,6 +236,7 @@ function capasBaseManager()
                    if(capasbase[j]['idcapasbase'] == id){
                        var capa = capasbase[j];
 
+                       //Carga los mapas chiquitos
                        var capatomap = L.tileLayer(capasbase[j]['urlservice'], {
                            capa
                        }).addTo(mymap_2);
@@ -263,9 +272,12 @@ function loadFirstCapaBase(basemap, idinput)
 function changeCapaBase(elemento)
 {
     var id = $(elemento).attr('attr');
+    var classname = $(elemento).attr('classname');
+
+    //Limpio todas las capas y la vuelvo a agegar segun el orden de carga
 
     mymap.eachLayer(function (layer) {
-       mymap.removeLayer(layer);
+        mymap.removeLayer(layer);
     });
 
     //recorro las capas bases y cargo segun el id
@@ -276,13 +288,15 @@ function changeCapaBase(elemento)
             var capatomap = L.tileLayer(capasbase[j]['urlservice'], {
                 capa,
                 'className' : capa['nombre']
-            }).addTo(mymap);
+            });
+            mymap.addLayer(capatomap, capa['nombre']);
 
         } else {
 
         }
     }
 
+    //Aca tendria que volver a cargar los overlays
 }
 
 function transformToArray(data) {

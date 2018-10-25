@@ -6,7 +6,23 @@
     /*where to replace the icon */
     top: 0px;
     /*background */
-    background: #F8E6AE url(../img/mapa_base.png);
+    background: url(../img/layers.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+
+.escala:after{
+    content: '';
+    display: inline-block;
+    height: 1em;  /*height of icon */
+    width: 1em;  /*width of icon */
+    /*where to replace the icon */
+    top: 0px;
+    /*background */
+    background: url(../img/regla.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

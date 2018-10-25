@@ -32,7 +32,24 @@ class IndexController extends AppController
         $tablaCapasBase = $this->loadModel('Capasbase');
         $capasbase = $tablaCapasBase->find('all');
 
+        //Traigo los datos para xrear el sidebar
+        //Categoriascapas
+        $tablaCategoriascapas = $this->loadModel('Categoriascapas');
+        $categoriascapas = $tablaCategoriascapas->find('all')->order(['categoria' => 'ASC']);
+        $this->set(compact('categoriascapas'));
+
         $this->set(compact('capasbase'));
+
+        //Traigo las escalas
+        $tablaEscalas = $this->loadModel('Escalascapas');
+        $escalascapas = $tablaEscalas->find('all')->order(['categoria' => 'ASC']);
+        $this->set(compact('escalascapas'));
+
+
+        //Traigo los layers, u overlay capas
+        $tablaLayers = $this->loadModel('Layers');
+        $layers = $tablaLayers->find()->where(['activo' => true])->order(['nombre' => 'ASC']);
+        $this->set(compact('layers'));
 
         $this->render();
 
