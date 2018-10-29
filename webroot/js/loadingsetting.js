@@ -10,6 +10,8 @@ var countcapasbase = null;
 var layerControl = new L.control.layers();
 
 var capasBaseList = [];
+var capasoverlaycurrent = [];
+
 
 $(function()
 {
@@ -52,18 +54,13 @@ function init()
     if (mapconfig != null){
 
         if (settingMapParmas()){
-            loadBaseMaps();
-            loadLayers()
-            layerControl.addTo(mymap);
-
-            capasBaseManager();
+            changeParametersBaseMaps();
+            changeParametersLayerOverlay();
+            loadCapasBase();
+            scaleControl();
         }
 
-        //Si el mapa estuvo ok, cargo las capas base
-
-
     }
-
 
 }
 
@@ -96,13 +93,14 @@ function settingMapParmas()
 
         return true;
         //Cargo las capas base como prueba
-
     }
-
 
 }
 
-function loadBaseMaps()
+/*
+    Metodo que elimina los atributos null de las capas bases que vienen de la DB
+ */
+function changeParametersBaseMaps()
 {
     //Variables del BaseMap
     var urlservice = null;
@@ -136,67 +134,14 @@ function loadBaseMaps()
             //Agrego el atributo de tipo de capa
 
         }
-
-        console.log(capasbase);
-
-
-
     }
 }
 
-
-function loadLayers()
-{
-    if (layersoverlay == null){
-
-    } else {
-        //Proceso las capas base y cargo al mapa
-        var ini = 0;
-        for (var i = 0; i < layersoverlay.length; i++){
-
-            var capa = layersoverlay[i];
-            $.each(layersoverlay[i], function(j, item) {
-                if (item === null){
-                    //Elimina los datos vaciones de un arreglo
-                    delete layersoverlay[i][j];
-                }
-            });
-        }
-
-
-
-        for (var i = 0; i < layersoverlay.length; i++){
-
-            var capa = layersoverlay[i];
-            var active_capa = capa['nombre'];
-            var capatomap = L.tileLayer.wms(capa['urlservice'], {
-                'layers' : capa['layers'],
-                'styles' : capa['styles'],
-                'transparent' : capa['transparent'],
-                'format' : capa['format'],
-                'version' : capa['version'],
-                'crs' : capa['crs'],
-                'minZoom' : capa['minzoom'],
-                'maxZoom' : capa['maxzoom'],
-                'opacity' : capa['opacity'],
-                'uppercase' : capa['uppercase'],
-                'attribution' : capa['attribution']
-            });
-
-
-            layerControl.addOverlay(capatomap, capa['nombre'].toString());
-
-
-        }
-
-    }
-
-}
 
 /*
     Funcion que controla el renderizado de las capas base en el downmenu
  */
-function capasBaseManager()
+function loadCapasBase()
 {
     if (countcapasbase != null){
 
@@ -269,7 +214,7 @@ function loadFirstCapaBase(basemap, idinput)
 
 }
 
-function changeCapaBase(elemento)
+function capasBaseManager(elemento)
 {
     var id = $(elemento).attr('attr');
     var classname = $(elemento).attr('classname');
@@ -297,7 +242,111 @@ function changeCapaBase(elemento)
     }
 
     //Aca tendria que volver a cargar los overlays
+    if(capasoverlaycurrent.length > 0){
+
+        for (var i = 0; i < capasoverlaycurrent.length; i++){
+
+            mymap.addLayer(capasoverlaycurrent[i]);
+        }
+
+    }
+
 }
+
+/*
+    Metodos que manejan los OVERLAYS Layers
+ */
+
+function changeParametersLayerOverlay()
+{
+    var ini = 0;
+    for (var i = 0; i < layersoverlay.length; i++){
+
+        var capa = layersoverlay[i];
+        $.each(layersoverlay[i], function(j, item) {
+            if (item === null){
+                //Elimina los datos vaciones de un arreglo
+                delete layersoverlay[i][j];
+            }
+        });
+    }
+}
+
+function overlaylayermanager(layer)
+{
+    if(layersoverlay != null){
+        var id = $(layer).attr('idlayer');
+
+        var capa = null;
+
+        //Recorro los overlay y consulto la capa
+
+        for (var i = 0; i < layersoverlay.length; i++){
+
+            if(layersoverlay[i]['idlayer'] == id){
+                capa = layersoverlay[i];
+
+                //Verifico si es checked o unchecked y quito o agrego
+                if($(layer).prop('checked')){
+
+                    var capatomap = L.tileLayer.wms(capa['urlservice'], {
+                        'idlayer' : capa['idlayer'],
+                        'layers' : capa['layers'],
+                        'styles' : capa['styles'],
+                        'transparent' : capa['transparent'],
+                        'format' : capa['format'],
+                        'version' : capa['version'],
+                        'crs' : capa['crs'],
+                        'minZoom' : capa['minzoom'],
+                        'maxZoom' : capa['maxzoom'],
+                        'opacity' : capa['opacity'],
+                        'uppercase' : capa['uppercase'],
+                        'attribution' : capa['attribution'],
+                        'className' : capa['nombre']
+                    });
+
+                    mymap.addLayer(capatomap);
+
+                    capasoverlaycurrent.push(capatomap);
+
+
+                } else {
+
+                    mymap.eachLayer(function (layermap) {
+
+                        if(layermap.options.idlayer == id){
+                            mymap.removeLayer(layermap);
+                            deleteObjectOfOverlayCurrentArray(layermap);
+                        }
+                    });
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+
+function deleteObjectOfOverlayCurrentArray(capa_select) {
+
+    var cantidad = capasoverlaycurrent.length;
+    for (var i = 0; i < cantidad; i++){
+
+        var capa_over = capasoverlaycurrent[i];
+
+        if(capa_over != null){
+            if(capa_over.options['idlayer'] == capa_select.options['idlayer']){
+                var index = capasoverlaycurrent.indexOf(capa_over);
+                capasoverlaycurrent.splice(index, 1);
+            }
+        }
+    }
+
+}
+
 
 function transformToArray(data) {
 
@@ -312,5 +361,36 @@ function transformToArray(data) {
         nuevaCadena2 = cadena2.replace(patron2, nuevoValor2);
 
     return nuevaCadena2;
+
+}
+
+
+/*
+    Funcion que carga la escala contro
+ */
+
+function scaleControl()
+{
+
+    L.control.scale({position : 'bottomleft', imperial : false}).addTo(mymap);
+
+}
+
+/*
+    Control de creacion de las referencias
+ */
+
+function legendManager(element)
+{
+    //Obtengo las variables del checkbox
+    var idlayer = $(layer).attr('idlayer');
+    var parent = $(layer).attr('parent');
+    var escala = $(layer).attr('escala');
+
+    var ul_container = $("#ul-reference-container").attr('escala');
+
+
+
+
 
 }
