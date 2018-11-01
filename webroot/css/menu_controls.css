@@ -1,0 +1,33 @@
+
+.div-content-menu-control{
+    padding: 5px 5px;
+    background: #f9fafc;
+    z-index: 999999;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    border-bottom: #d2d6de 1px solid;
+}
+
+.btn-menu-controls{
+    padding: 0px 3px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+
+
+.info-ico:after{
+    content: '';
+    display: block;
+    height: 2em;  /*height of icon */
+    width: 2em;  /*width of icon */
+    /*where to replace the icon */
+    top: 0px;
+    /*background */
+    background: url(../img/info.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}

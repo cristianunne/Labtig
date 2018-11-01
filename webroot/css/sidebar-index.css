@@ -13,19 +13,58 @@
 .text-categoria{
     font-weight: bold;
     color: black;
+    padding-left: 5px;
 }
 
 .div-contenerdor-ul{
-    max-height: 40%;
+    max-height: 50%;
+    overflow-x: hidden;
     overflow-y: auto;
+
 }
 
 .div-contenerdor-ul-down{
-    max-height: 40%;
+    max-height: 50%;
     border-top: #d2d6de 1px solid;
     margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .li-reference-none{
     display: none;
 }
+
+
+/*
+        Reajustes de tamaños
+
+*/
+
+.main-sidebar{
+    width: 298px;
+}
+
+.main-header .logo{
+    width: 298px;
+}
+
+.main-header .navbar{
+    margin-left: 298px;
+}
+
+.content-wrapper, .main-footer{
+    margin-left: 298px;
+}
+
+
+
+@media (min-width: 768px) {
+    .sidebar-collapse .main-sidebar {
+        -webkit-transform: translate(-298px, 0);
+        -ms-transform: translate(-298px, 0);
+        -o-transform: translate(-298px, 0);
+        transform: translate(-298px, 0);
+    }
+}
+

@@ -72,7 +72,7 @@ class AppController extends Controller
             ]
         ]);
 
-        $this->loadComponent('Cookie');
+        //$this->loadComponent('Cookie');
 
 
 

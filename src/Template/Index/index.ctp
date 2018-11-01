@@ -1,18 +1,27 @@
 <?= $this->Html->script('index/indexmap.js') ?>
 
 <?= $this->Html->css('leaflet') ?>
+<?= $this->Html->css('leaflet-overview') ?>
 <?= $this->Html->css('icons') ?>
 <?= $this->Html->css('sidebar-index') ?>
+<?= $this->Html->css('menu_controls') ?>
 <?= $this->Html->script('leaflet/leaflet.js') ?>
+<?= $this->Html->script('leaflet/leaflet-overview.js') ?>
 <?= $this->Html->script('loadingsetting.js') ?>
+<?= $this->Html->script('leaflet/menucontrols') ?>
 
 <?= $this->element('header_index')?>
 <?= $this->element('sidebar_index')?>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
+
     <section class="content" style="padding: 0px 0px 0px 0px;">
-        <div id="mapid" style="min-height: 90vh !important; height: 90vh;">
+        <div class="div-content-menu-control">
+            <button type="submit" class="btn btn-default btn-menu-controls" name="info"><i class="info-ico"></i></button>
+
+        </div>
+        <div id="mapid" style="width: 100%; min-height: 85.5vh !important; height: 85.5vh;">
 
         </div>
     </section>

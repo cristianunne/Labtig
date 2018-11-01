@@ -58,11 +58,33 @@ function init()
             changeParametersLayerOverlay();
             loadCapasBase();
             scaleControl();
+
+            mapMinReferenceManager();
+            initMenuControls();
+
+
+            mymap.on('zoom', function () {
+
+                console.log(mymap.getBounds());
+            });
+
+           mymap.on('resize', function () {
+               var oldSize = this.getSize(),
+                   newSize = new L.Point(this._container.clientWidth, this._container.clientHeight);
+
+               if (!newSize.equals(oldSize)) {
+                   this.fire('resize', newSize);
+                   L.Map.prototype._onResize.call(this)
+               }
+           });
+
         }
 
     }
 
 }
+
+
 
 //Funcion que setea los parametros iniciales del Mapa
 function settingMapParmas()
@@ -90,6 +112,10 @@ function settingMapParmas()
 
         mymap = L.map('mapid', {minZoom: minzoom})
             .setView(center, zoom);
+
+
+        var div_map = $("#mapid");
+        div_map.attr('width', div_map.width());
 
         return true;
         //Cargo las capas base como prueba
@@ -309,6 +335,8 @@ function overlaylayermanager(layer)
 
                     capasoverlaycurrent.push(capatomap);
 
+                    legendManager(layer, true);
+
 
                 } else {
 
@@ -319,6 +347,8 @@ function overlaylayermanager(layer)
                             deleteObjectOfOverlayCurrentArray(layermap);
                         }
                     });
+
+                    legendManager(layer, false);
                 }
 
             }
@@ -380,17 +410,79 @@ function scaleControl()
     Control de creacion de las referencias
  */
 
-function legendManager(element)
+function legendManager(element, checked)
 {
     //Obtengo las variables del checkbox
-    var idlayer = $(layer).attr('idlayer');
-    var parent = $(layer).attr('parent');
-    var escala = $(layer).attr('escala');
+    var idlayer = $(element).attr('idlayer');
+    var parent = $(element).attr('parent');
+    var escala = $(element).attr('escala');
+    var idparent = $(element).attr('idparent');
 
-    var ul_container = $("#ul-reference-container").attr('escala');
+    var ul_parent = $("#ref_parent_" + idparent)
+    var li_reference = $("#li_reference_" + idlayer.toString());
+
+    if(checked){
+        //Obtengo el ulcontenedor por tematica y lo hago visible
+         ul_parent.css("display", "block");
+         li_reference.css("display", "block");
+    } else {
+        var count = 0;
+
+        li_reference.css("display", "none");
+        ul_parent.each(function(i) {
+            var li = $(this).find('li');
+            var esVisible = $(li).is(":visible");
+            if(esVisible){
+                count++;
+            }
+        });
+        if (count <= 0){
+            ul_parent.css("display", "none");
+        }
+    }
+}
 
 
 
+/*
+    MapMinReference
+
+    Maneja el Mapa min que muestra la referencia
+ */
+
+function mapMinReferenceManager(){
+
+    var osm2 = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        name: 'osm',
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    });
+
+    L.control.overview([osm2]).addTo(mymap);
+
+}
+
+/*
+    Tabla de Atributos
+ */
+
+function toogleButton() {
+
+    var div_map = $("#mapid");
+    var width_body = $("#body").width();
+    var width_div_map = div_map.width();
+
+    if(width_body > width_div_map){
+        div_map.width(width_body);
+    } else {
+        var newwidth = div_map.attr('width');
+        div_map.width(newwidth);
+    }
+
+    setTimeout(function () {
+        L.Map.prototype._onResize.call(mymap)
+    }, 500);
 
 
 }
+
+

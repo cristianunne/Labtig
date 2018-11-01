@@ -86,8 +86,6 @@ class IndexController extends AppController
 
             //Recorro los nombres de las capas base y creo un arreglo
 
-
-
             $res = [
                 'dataconfig' => $mapConfigData,
                 'capasbase' => $capasbase,

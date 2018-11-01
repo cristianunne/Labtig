@@ -1,4 +1,6 @@
 
+<?php $URL_SERVIDOR = "http://192.168.0.33:8080/geoserver/wms?" ?>
+
 
 <!-- Left side column. contains the logo and sidebar -->
 <aside class="main-sidebar">
@@ -59,6 +61,7 @@
                                                         <li><a href="#"><input id="<?= h("overlay_".$layer->idlayer) ?>" type="checkbox" name="<?= h($layer->nombre) ?>"
                                                                                idlayer="<?= h($layer->idlayer) ?>" onclick="overlaylayermanager(this)"
                                                                                parent="<?= h($catcapas->categoria) ?>"
+                                                                               idparent="<?= h($catcapas->idcategoriacapa) ?>"
                                                                                escala="<?= h($escalas->categoria) ?>"
                                                                                class="pull-left" style="margin: 0">
                                                                 <p class="text-a-li" style="margin: 0 0 0 20px">
@@ -126,10 +129,11 @@
                                                         <li><a href="#"><input id="<?= h("overlay_".$layer->idlayer) ?>" type="checkbox" name="<?= h($layer->nombre) ?>"
                                                                                idlayer="<?= h($layer->idlayer) ?>" onclick="overlaylayermanager(this)"
                                                                                parent="<?= h($catcapas->categoria) ?>"
+                                                                               idparent="<?= h($catcapas->idcategoriacapa) ?>"
                                                                                escala="<?= h($escalas->categoria) ?>"
                                                                                class="pull-left" style="margin: 0">
                                                                 <p class="text-a-li" style="margin: 0 0 0 20px">
-                                                                    <?= h($layer->nombre)."una prubea de uinicoasdjasd" ?> </p>
+                                                                    <?= h($layer->nombre) ?> </p>
                                                             </a></li>
 
                                                     <?php endif; ?>
@@ -163,7 +167,7 @@
                 <?php foreach ($categoriascapas as $catcapas): ?>
 
                     <?php if($catcapas->categoria == "Capas Base"): ?>
-                        <li id="li_Mapa" class="li-reference-none">
+                        <li id="<?= h("ref_parent_".$catcapas->idcategoriacapa) ?>" class="li-reference-none">
                             <a href="#" id="ahref-menu">
                                 <div class="container-fluid" style="padding-left: 0px; padding-right: 0px; margin-right: -2px; margin-left: -2px;">
                                     <div class="row" style="margin-right: 0px; margin-left: 0px;">
@@ -193,18 +197,20 @@
 
                                             <?php if($layer->escala_idescala == $escalas->idescala): ?>
 
-                                                <?php $url_image =  'http://localhost:8080/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER='.$layer->layers.'&width="127" height="120"'?>
+                                                <?php $url_image =  $URL_SERVIDOR.'TRANSPARENT=TRUE&
+                                                &SERVICE=WMS&REQUEST=GetLegendGraphic&VERSION=1.1.1&FORMAT=image/png&SCALE=545979&LAYER='.$layer->layers.
+                                                    '&STYLE='.$layer->styles?>
 
 
-                                                    <li class="treeview menu-open">
+                                                    <li class="treeview menu-open li-reference-none" id="<?= h("li_reference_".$layer->idlayer) ?>">
                                                         <div class="container-fluid" style="padding-left: 0px; padding-right: 0px; margin-right: -2px; margin-left: -2px;">
                                                             <div class="row" style="margin-right: 0px; margin-left: 0px; padding-left: 30px;">
-                                                                <div class="col-md-2" style="margin-right: 0px; margin-left: 0px; padding-right: 0; padding-left: 0;">
-                                                                    <?php echo $this->Html->image($url_image, ["alt" => '' , "class" => 'img-rounded img-responsive', 'style' => 'height: 1.5em; width: 1.5em;']) ?>
-
-                                                                </div>
-                                                                <div class="col-md-10" style="margin-top: 5px; padding-left: 0px;">
+                                                                <div class="col-md-12" style="margin-top: 5px; padding-left: 0px;">
                                                                     <span> <?= h($layer->nombre) ?></span>
+                                                                </div>
+                                                                <div class="col-md-12" style="margin-right: 0px; margin-left: 0px; padding-right: 0; padding-left: 0; min-height: 20px;">
+                                                                    <?php echo $this->Html->image($url_image, ["alt" => '']) ?>
+
                                                                 </div>
                                                             </div>
 
@@ -225,7 +231,7 @@
                 <?php foreach ($categoriascapas as $catcapas): ?>
 
                     <?php if($catcapas->categoria != "Capas Base"): ?>
-                        <li id="li_Mapa" class="li-reference-none">
+                        <li id="<?= h("ref_parent_".$catcapas->idcategoriacapa) ?>" class="li-reference-none">
                             <a href="#" id="ahref-menu">
                                 <div class="container-fluid" style="padding-left: 0px; padding-right: 0px; margin-right: -2px; margin-left: -2px;">
                                     <div class="row" style="margin-right: 0px; margin-left: 0px;">
@@ -256,18 +262,20 @@
 
                                             <?php if($layer->escala_idescala == $escalas->idescala): ?>
 
-                                                <?php $url_image =  'http://localhost:8080/geoserver/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=20&HEIGHT=20&LAYER='.$layer->layers.'&width="127" height="120"'?>
+                                                <?php $url_image = $URL_SERVIDOR.'TRANSPARENT=TRUE&
+                                                &SERVICE=WMS&REQUEST=GetLegendGraphic&VERSION=1.1.1&FORMAT=image/png&SCALE=545979&LAYER='.$layer->layers.
+                                                    '&STYLE='.$layer->styles?>
 
 
-                                                <li class="treeview menu-open">
+                                                <li class="treeview menu-open li-reference-none" id="<?= h("li_reference_".$layer->idlayer) ?>">
                                                     <div class="container-fluid" style="padding-left: 0px; padding-right: 0px; margin-right: -2px; margin-left: -2px;">
                                                         <div class="row" style="margin-right: 0px; margin-left: 0px; padding-left: 30px;">
-                                                            <div class="col-md-2" style="margin-right: 0px; margin-left: 0px; padding-right: 0; padding-left: 0;">
-                                                                <?php echo $this->Html->image($url_image, ["alt" => '' , "class" => 'img-rounded img-responsive', 'style' => 'height: 1.5em; width: 1.5em;']) ?>
-
-                                                            </div>
-                                                            <div class="col-md-10" style="margin-top: 5px; padding-left: 0px;">
+                                                            <div class="col-md-12" style="margin-top: 5px; padding-left: 0px;">
                                                                 <span> <?= h($layer->nombre) ?></span>
+                                                            </div>
+                                                            <div class="col-md-12" style="margin-right: 0px; margin-left: 0px; padding-right: 0; padding-left: 0;">
+                                                                <?php echo $this->Html->image($url_image, ["alt" => '']) ?>
+
                                                             </div>
                                                         </div>
 

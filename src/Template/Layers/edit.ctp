@@ -61,7 +61,7 @@
                         <?= $this->Form->input('maxzoom', ['class' => 'form-control', 'placeholder' => 'MaxZoom', 'label' => 'MaxZoom:']) ?>
                         <br>
 
-                        <?= $this->Form->input('opacity', ['class' => 'form-control', 'placeholder' => 'Opacidad', 'label' => 'Opacidad:']) ?>
+                        <?= $this->Form->input('opacity', ['type' => 'number', 'step' => '0.01', 'class' => 'form-control', 'placeholder' => 'Opacidad', 'label' => 'Opacidad:']) ?>
                         <br>
 
                         <?= $this->Form->input('attribution', ['class' => 'form-control', 'placeholder' => 'Atribuciones', 'label' => 'Atribuciones:']) ?>
