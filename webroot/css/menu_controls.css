@@ -31,3 +31,19 @@
     background-repeat: no-repeat;
     float: left;
 }
+
+.cursor-info{
+    height: 20px;  /*height of icon */
+    width: 20px;  /*width of icon */
+    cursor: url(../img/cursor_clic.png), pointer;
+}
+/*
+    Clase que se agrega si esta clickeado el boton
+ */
+
+.button-click{
+    background-color: #e6e6e6;
+    border: solid 0.5px #b5b3b3;
+
+}
+

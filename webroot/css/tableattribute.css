@@ -1,0 +1,54 @@
+.tableattr-container{
+    position: absolute;
+    z-index: 9003;
+    visibility: visible;
+    width: 480px;
+    height: 200px;
+    display: block;
+    background-color: #f9fafc;
+    border: 1px solid #d2d6de;
+
+    -webkit-box-shadow: 5px 5px 11px 1px rgba(189,189,189,1);
+    -moz-box-shadow: 5px 5px 11px 1px rgba(189,189,189,1);
+    box-shadow: 5px 5px 11px 1px rgba(189,189,189,1);
+}
+
+.tbl-attr-header{
+    display: block;
+    width: 100%;
+    padding: 10px 5px 5px 5px;
+    border-bottom: #d2d6de 1px solid;
+}
+.x-tool {
+    background: url(../img/close.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.x-tool {
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+    float: right;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.x-window-tl .x-window-header {
+    color: #15428b;
+    font: bold 11px tahoma,arial,verdana,sans-serif;
+    padding: 5px 0 4px 0;
+}
+.x-window-draggable, .x-window-draggable .x-window-header-text {
+    cursor: move;
+}
+.x-window-header {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.ui-icon,.ui-widget-content .ui-icon{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

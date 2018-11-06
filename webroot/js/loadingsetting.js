@@ -60,13 +60,7 @@ function init()
             scaleControl();
 
             mapMinReferenceManager();
-            initMenuControls();
 
-
-            mymap.on('zoom', function () {
-
-                console.log(mymap.getBounds());
-            });
 
            mymap.on('resize', function () {
                var oldSize = this.getSize(),
@@ -464,6 +458,8 @@ function mapMinReferenceManager(){
 /*
     Tabla de Atributos
  */
+
+
 
 function toogleButton() {
 
