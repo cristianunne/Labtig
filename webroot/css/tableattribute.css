@@ -52,3 +52,26 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/*
+    Estilos para la tabla que realiza la consulta
+ */
+
+table.featureInfo, table.featureInfo td, table.featureInfo th {
+    border:1px solid #cccccc;
+    border-collapse:collapse;
+    font-size: 90%;
+}
+
+#tdinfotable{
+    border:1px solid #cccccc;
+    border-collapse:collapse;
+
+    font-size: 90%;
+}
+table.featureInfo th {
+    padding:.2em .2em;
+    font-weight:bold;
+    background:#eee;
+}
+

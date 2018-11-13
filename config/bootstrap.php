@@ -200,3 +200,4 @@ Type::build('timestamp')
 
 
 Plugin::load('BootstrapUI');
+Plugin::load('Cors', ['bootstrap' => true, 'routes' => false]);

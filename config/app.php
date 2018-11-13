@@ -384,4 +384,13 @@ return [
     'Session' => [
         'defaults' => 'php',
     ],
+
+    'Cors' => [
+        // Accept all origins
+        'AllowOrigin' => true,
+        'AllowMethods' => ['GET', 'POST'],
+        'AllowHeaders' => true,
+        // array
+        'ExposeHeaders' => ['X-My-Custom-Header', 'X-Another-Custom-Header']
+    ]
 ];

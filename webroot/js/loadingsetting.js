@@ -309,7 +309,7 @@ function overlaylayermanager(layer)
                 //Verifico si es checked o unchecked y quito o agrego
                 if($(layer).prop('checked')){
 
-                    var capatomap = L.tileLayer.wms(capa['urlservice'], {
+                    var capatomap = new L.TileLayer.BetterWMS(capa['urlservice'], {
                         'idlayer' : capa['idlayer'],
                         'layers' : capa['layers'],
                         'styles' : capa['styles'],

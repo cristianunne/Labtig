@@ -9,6 +9,7 @@
 <?= $this->Html->css('jquery-ui') ?>
 
 <?= $this->Html->script('leaflet/leaflet.js') ?>
+<?= $this->Html->script('leaflet/L.TileLayer.BetterWMS.js') ?>
 <?= $this->Html->script('leaflet/leaflet-overview.js') ?>
 <?= $this->Html->script('loadingsetting.js') ?>
 <?= $this->Html->script('leaflet/menucontrols') ?>
@@ -32,6 +33,7 @@
         <div id="mapid" style="width: 100%; min-height: 85.5vh !important; height: 85.5vh;">
 
         </div>
+
     </section>
 
 </div>

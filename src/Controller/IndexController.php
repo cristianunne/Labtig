@@ -18,7 +18,9 @@ class IndexController extends AppController
     {
         // allow all action
         $this->Auth->allow();
+        $this->response->header('Access-Control-Allow-Origin', '*');
     }
+
 
     public function index()
     {
@@ -118,6 +120,34 @@ class IndexController extends AppController
             ];
             return $this->json($res);
         }
+    }
+
+
+    public function getAttribute()
+    {
+        $this->layout = null;
+        $this->autoRender = false;
+
+
+
+        if ($this->request->is('ajax')) {
+
+            $url = $this->request->getQuery('url');
+
+            $res = [
+                'dataconfig' => [
+                    'nombre' => $this->request->getQuery('url')
+                ]
+            ];
+
+            $contenido = file_get_contents($url);
+
+
+            return $this->json($contenido);
+        }
+
+
+
     }
 
 }

@@ -28,7 +28,10 @@ function getInfoByClick(element){
 
 
 function initMenuControls(){
-    mymap.on('click', onClickPupup);
+
+        // Build the URL for a GetFeatureInfo
+
+    //mymap.on('click', onClickPupup);
 }
 
 
@@ -46,3 +49,12 @@ function onmouseleavefunction() {
     div_info_content.blur();
     div_info_content.trigger("refresh");
 }
+
+
+
+
+/**
+ * Return the WMS GetFeatureInfo URL for the passed map, layer and coordinate.
+ * Specific parameters can be passed as params which will override the
+ * calculated parameters of the same name.
+ */
