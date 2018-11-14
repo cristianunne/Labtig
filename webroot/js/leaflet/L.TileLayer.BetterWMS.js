@@ -91,20 +91,14 @@ L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({
         //var caption = $(content).find("table").find("caption").val();
         //console.log(caption);
         // Otherwise show the content in a popup, or something.
-        var tabla_prov = '<div id="tabla_prov" style="display: none;"></div>';
-        $("#table-container").append(tabla_prov);
-        $("#tabla_prov").append(content);
-        var caption = $("#tabla_prov").find("table").find("caption").text();
+
+        //Sumo el numero de layers consultados
+        num_layer_query = num_layer_query + 1;
+
 
         //Con el Caption me encargo de pasparle a la pestaña para que construya el panel
+        createTableAttributes(content);
 
-
-        $("#context-table").append(content);
-        $("#context-table").find("style").remove();
-        $("#context-table").find("table").addClass("table table-bordered table-hover")
-        $("#context-table").find("table").find("tbody").find("tr").find("th").attr('id', "tdinfotable");
-        $("#context-table").find("table").find("tbody").find("tr").find("td").attr('id', "tdinfotable");
-        $("#context-table").find("table").find("tbody").find("tr").find("td").css('vertical-align', "middle");
     }
 });
 

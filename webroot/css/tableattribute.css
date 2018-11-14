@@ -1,3 +1,13 @@
+.ui-widget-content{
+    position: absolute;
+    z-index: 9003;
+    visibility: visible;
+    left: 668px;
+    top: 332px;
+    width: 526px;
+    display: block;
+}
+
 .tableattr-container{
     position: absolute;
     z-index: 9003;
@@ -14,7 +24,6 @@
 }
 
 .tbl-attr-header{
-    display: block;
     width: 100%;
     padding: 10px 5px 5px 5px;
     border-bottom: #d2d6de 1px solid;
@@ -73,5 +82,10 @@ table.featureInfo th {
     padding:.2em .2em;
     font-weight:bold;
     background:#eee;
+}
+
+#ul-content-ref{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #aaaaaa;
 }
 

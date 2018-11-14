@@ -2,6 +2,7 @@
 
 <div class="tableattr-container ui-widget-content" id="tableattr-container" style="position: absolute; left: 40%; top: 40%; overflow: auto;">
 
+
     <div class="tbl-attr-header" id="tableattr-header" style="background-color: #f9fafc;">
 
         <div class="gx-popup x-window-header x-unselectable x-window-draggable" id="ext-gen307">
@@ -9,6 +10,8 @@
             <span class="text-categoria" id="ext-gen315">Información del elemento </span>
         </div>
     </div>
+
+    <div style="width: 100%;height: 100%;">
 
     <div id="table-container" style="overflow: hidden;">
         <div class="box box-default">
@@ -18,13 +21,10 @@
             <!-- /.box-header -->
             <div id="context-table" class="box-body table-responsive" >
 
-                <ul class="nav nav-pills">
-                    <li class="active"><a href="#">Inicio</a></li>
-                    <li><a href="#">Perfil</a></li>
-                    <li><a href="#">Mensajes</a></li>
+                <ul id="ul-content-ref" class="nav nav-pills">
                 </ul>
 
-                <div id="content-div-tables">
+                <div id="content-div-tables" class="tab-content">
 
 
                 </div>
@@ -36,4 +36,7 @@
 
     </div>
 
+    </div>
+
 </div>
+
