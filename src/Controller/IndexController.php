@@ -32,7 +32,9 @@ class IndexController extends AppController
 
         //En ambos casos deberia filtrar por el campo activo
         $tablaCapasBase = $this->loadModel('Capasbase');
-        $capasbase = $tablaCapasBase->find('all');
+        $capasbase = $tablaCapasBase->find('all', [
+            'conditions' => ['active' => true]
+        ]);
 
         //Traigo los datos para xrear el sidebar
         //Categoriascapas
@@ -78,12 +80,15 @@ class IndexController extends AppController
 
             //En ambos casos deberia filtrar por el campo activo
             $tablaCapasBase = $this->loadModel('Capasbase');
-            $capasbase = $tablaCapasBase->find('all');
+            $capasbase = $tablaCapasBase->find('all', [
+                'conditions' => ['active' => true]
+            ]);
+
             $countcapasbase = $capasbase->count();
 
             $tablaLayers = $this->loadModel('Layers');
             $layers = $tablaLayers->find()->select(['idlayer', 'nombre', 'urlservice', 'styles', 'format', 'transparent', 'version', 'crs', 'uppercase', 'minzoom',
-                'maxzoom', 'opacity', 'attribution', 'layers']);
+                'maxzoom', 'opacity', 'attribution', 'layers', 'tiles']);
 
 
             //Recorro los nombres de las capas base y creo un arreglo

@@ -131,6 +131,10 @@ class LayersTable extends Table
             ->requirePresence('layers', 'create')
             ->notEmpty('layers');
 
+        $validator
+            ->integer('tiles')
+            ->allowEmpty('tiles');
+
         return $validator;
     }
 }

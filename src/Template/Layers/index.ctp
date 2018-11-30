@@ -34,6 +34,7 @@
                                 <th scope="col"><?= $this->Paginator->sort('MaxZoom') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Opacidad') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Atribución') ?></th>
+                                <th scope="col"><?= $this->Paginator->sort('Tiles') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Escala') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Categoría') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Activo') ?></th>
@@ -69,6 +70,7 @@
                                     <td style="text-align: center;"><?= h($capas->opacity) ?></td>
 
                                     <td style="text-align: center; vertical-align: middle;"><?= h($capas->attribution) ?></td>
+                                    <td style="text-align: center; vertical-align: middle;"><?= h($capas->tiles) ?></td>
                                     <td style="text-align: center; vertical-align: middle;"><?= h($capas->escalascapa->categoria) ?></td>
                                     <td style="text-align: center; vertical-align: middle;"><?= h($capas->categoria_idcategoria) ?></td>
 

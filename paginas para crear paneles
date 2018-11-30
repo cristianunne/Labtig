@@ -4,3 +4,26 @@ https://bootsnipp.com/forms
 
 la documentacion
 https://librosweb.es/libro/bootstrap_3/capitulo_6/elementos_de_navegacion.html
+
+
+var div_map = $("#mapid");
+    //$(div_map).width('60%');
+
+    var width_por = ($(div_map).width() * 100) / $(div_map).parent().width();
+    width_por = Math.round(width_por);
+
+    if(width_por === 60){
+
+        $(div_map).width('100%');
+        //$("#description-content").fadeToggle('slow', 'linear');
+        $("#description-content").width('0%');
+        //$("#description-content").css('display', 'none');
+
+    } else{
+        $("#description-content").css('display', 'inherit');
+        $("#description-content").width('40%');
+        $(div_map).width('60%');
+    }
+
+    //inicio el fadetoggle
+    //$("#description-content").fadeToggle('slow', 'linear');

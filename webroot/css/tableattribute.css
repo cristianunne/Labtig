@@ -8,16 +8,14 @@
     display: block;
 }
 
-.tableattr-container{
+#tableattr-container{
     position: absolute;
     z-index: 9003;
-    visibility: visible;
     width: 480px;
-    height: 200px;
-    display: block;
+    height: 300px;
     background-color: #f9fafc;
     border: 1px solid #d2d6de;
-
+    visibility: hidden;
     -webkit-box-shadow: 5px 5px 11px 1px rgba(189,189,189,1);
     -moz-box-shadow: 5px 5px 11px 1px rgba(189,189,189,1);
     box-shadow: 5px 5px 11px 1px rgba(189,189,189,1);
@@ -87,5 +85,8 @@ table.featureInfo th {
 #ul-content-ref{
     padding-bottom: 5px;
     border-bottom: 1px solid #aaaaaa;
+}
+.box{
+    margin-bottom: 0px;
 }
 

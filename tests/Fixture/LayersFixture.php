@@ -34,6 +34,7 @@ class LayersFixture extends TestFixture
         'categoria_idcategoria' => ['type' => 'integer', 'length' => 10, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null, 'unsigned' => null, 'autoIncrement' => null],
         'activo' => ['type' => 'boolean', 'length' => null, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null],
         'layers' => ['type' => 'string', 'length' => 200, 'default' => null, 'null' => false, 'collate' => null, 'comment' => null, 'precision' => null, 'fixed' => null],
+        'tiles' => ['type' => 'integer', 'length' => 10, 'default' => '256', 'null' => true, 'comment' => null, 'precision' => null, 'unsigned' => null, 'autoIncrement' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['idlayer'], 'length' => []],
             'fk_categoria_layers' => ['type' => 'foreign', 'columns' => ['categoria_idcategoria'], 'references' => ['categoriascapas', 'idcategoriacapa'], 'update' => 'noAction', 'delete' => 'setNull', 'length' => []],
@@ -67,7 +68,8 @@ class LayersFixture extends TestFixture
                 'escala_idescala' => 1,
                 'categoria_idcategoria' => 1,
                 'activo' => 1,
-                'layers' => 'Lorem ipsum dolor sit amet'
+                'layers' => 'Lorem ipsum dolor sit amet',
+                'tiles' => 1
             ],
         ];
         parent::init();

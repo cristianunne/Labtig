@@ -9,7 +9,7 @@
 
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <div class="div-contenerdor-ul">
-            <ul class="sidebar-menu ul-sidebar" data-widget="tree">
+            <ul id="ul-capas-container" class="sidebar-menu ul-sidebar" data-widget="tree">
 
                 <li class="header">CAPAS TEMÁTICAS</li>
 
@@ -41,7 +41,7 @@
                                 <?php foreach ($escalascapas as $escalas): ?>
 
 
-                                    <li class="treeview menu-open">
+                                    <li id="li_escalas" class="treeview menu-open">
                                         <a href="#"><i class="escala"></i> <p class="text-a-li" style="margin: 0 0 0 20px;"><?= h(" ".$escalas->categoria) ?></p>
                                             <span class="pull-right-container">
                                                 <i class="fa fa-angle-left pull-right"></i>
@@ -49,7 +49,7 @@
                                         </a>
 
                                         <!-- VAN LAS CAPAS PROPIAMENTE DICHAS-->
-                                        <ul class="treeview-menu" style="display: block;">
+                                        <ul id="ul_capas" class="treeview-menu" style="display: block;">
 
                                             <?php foreach ($layers as $layer): ?>
 
@@ -58,7 +58,7 @@
                                                     <?php if($layer->escala_idescala == $escalas->idescala): ?>
 
 
-                                                        <li><a href="#"><input id="<?= h("overlay_".$layer->idlayer) ?>" type="checkbox" name="<?= h($layer->nombre) ?>"
+                                                        <li id="li_capa"><a href="#"><input id="<?= h("overlay_".$layer->idlayer) ?>" type="checkbox" name="<?= h($layer->nombre) ?>"
                                                                                idlayer="<?= h($layer->idlayer) ?>" onclick="overlaylayermanager(this)"
                                                                                parent="<?= h($catcapas->categoria) ?>"
                                                                                idparent="<?= h($catcapas->idcategoriacapa) ?>"
@@ -110,7 +110,7 @@
 
                                 <?php foreach ($escalascapas as $escalas): ?>
 
-                                    <li class="treeview menu-open">
+                                    <li id="li_escalas" class="treeview menu-open">
                                         <a href="#"><i class="escala"></i> <p class="text-a-li" style="margin: 0 0 0 20px;"><?= h(" ".$escalas->categoria) ?></p>
                                             <span class="pull-right-container">
                                         <i class="fa fa-angle-left pull-right"></i>
@@ -118,7 +118,7 @@
                                         </a>
 
                                         <!-- VAN LAS CAPAS PROPIAMENTE DICHAS-->
-                                        <ul class="treeview-menu" style="display: block;">
+                                        <ul id="ul_capas" class="treeview-menu" style="display: block;">
 
                                             <?php foreach ($layers as $layer): ?>
 
@@ -126,7 +126,7 @@
 
                                                     <?php if($layer->escala_idescala == $escalas->idescala): ?>
 
-                                                        <li><a href="#"><input id="<?= h("overlay_".$layer->idlayer) ?>" type="checkbox" name="<?= h($layer->nombre) ?>"
+                                                        <li id="li_capa"><a href="#"><input id="<?= h("overlay_".$layer->idlayer) ?>" type="checkbox" name="<?= h($layer->nombre) ?>"
                                                                                idlayer="<?= h($layer->idlayer) ?>" onclick="overlaylayermanager(this)"
                                                                                parent="<?= h($catcapas->categoria) ?>"
                                                                                idparent="<?= h($catcapas->idcategoriacapa) ?>"
@@ -161,7 +161,7 @@
 
         <!-- REFERENCIAS-->
         <div class="div-contenerdor-ul-down">
-            <ul id="ul-reference-container li-reference-none" class="sidebar-menu ul-sidebar" data-widget="tree">
+            <ul id="ul-reference-container" class="sidebar-menu ul-sidebar" data-widget="tree">
                 <li class="header">REFERENCIAS</li>
 
                 <?php foreach ($categoriascapas as $catcapas): ?>

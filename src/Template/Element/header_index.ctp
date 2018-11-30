@@ -59,10 +59,36 @@
                             <?php $i = $i + 1;?>
                         <?php endforeach; ?>
 
+                        <!-- Agrego un item de ninguno-->
+                        <li style="min-height: 50px; margin-top: 15px; padding: 5px 5px 5px 5px;">
+                            <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+                                <div class="row" style="margin-left: 0px; margin-right: 0px;">
+                                    <div class="col-md-3" style="padding-right: 0px; padding-left: 0px;">
+                                        <div id="<?= h("mapa_no") ?>" attr="no_map" style="width: 50px; height: 50px; float: left;">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" style="padding-right: 0px; padding-left: 0px;">
+                                        <p style="margin-top: 15px;"><?= h('Ninguno') ?></p>
+                                    </div>
+
+                                    <div class="col-md-1" style="padding-right: 0px; padding-left: 0px;">
+                                        <input id="radio_nomap" attr="radio_nomap" type="radio" name="capasbase" class="pull-right" value="no_map" style="margin-top: 15px;" onclick="capasBaseManager(this)">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </li>
+
+
                     </ul>
                 </li>
             </ul>
         </div>
+
+        <a href="#" class="sidebar-toggle" data-toggle="" role="button" onclick="toogleDescription()" style="float: right;">
+            <span class="sr-only">Otro Boton</span>
+        </a>
 
 
     </nav>

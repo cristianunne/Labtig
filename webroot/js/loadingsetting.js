@@ -1,5 +1,3 @@
-
-
 //Variables usada para cargar los datos
 var mapconfig = null;
 var capasbase = null;
@@ -72,9 +70,12 @@ function init()
                }
            });
 
+            removeEscalasSinCapas();
+
         }
 
     }
+
 
 }
 
@@ -245,20 +246,25 @@ function capasBaseManager(elemento)
         mymap.removeLayer(layer);
     });
 
-    //recorro las capas bases y cargo segun el id
-    for (var j = 0; j < capasbase.length; j++){
-        if(capasbase[j]['idcapasbase'] == id){
-            var capa = capasbase[j];
+    //Verifico que no haya sido el no map
 
-            var capatomap = L.tileLayer(capasbase[j]['urlservice'], {
-                capa,
-                'className' : capa['nombre']
-            });
-            mymap.addLayer(capatomap, capa['nombre']);
+    if (id !== 'radio_nomap') {
+        //recorro las capas bases y cargo segun el id
+        for (var j = 0; j < capasbase.length; j++){
+            if(capasbase[j]['idcapasbase'] == id){
+                var capa = capasbase[j];
 
-        } else {
+                var capatomap = L.tileLayer(capasbase[j]['urlservice'], {
+                    capa,
+                    'className' : capa['nombre']
+                });
+                mymap.addLayer(capatomap, capa['nombre']);
 
+            } else {
+
+            }
         }
+
     }
 
     //Aca tendria que volver a cargar los overlays
@@ -322,14 +328,26 @@ function overlaylayermanager(layer)
                         'opacity' : capa['opacity'],
                         'uppercase' : capa['uppercase'],
                         'attribution' : capa['attribution'],
-                        'className' : capa['nombre']
+                        'className' : capa['nombre'],
+                        'tileSize' : capa['tiles']
                     });
+
 
                     mymap.addLayer(capatomap);
 
-                    capasoverlaycurrent.push(capatomap);
+
+
 
                     legendManager(layer, true);
+
+                    //Activo la funcion de Query a la capa si el botoncito esta activo
+                    var div_info_content = $("#div-info-content");
+
+                    if(div_info_content.hasClass('button-click')){
+                        mymap.on('click', capatomap.getFeatureInfo, capatomap);
+                    }
+
+                    capasoverlaycurrent.push(capatomap);
 
 
                 } else {
@@ -337,6 +355,7 @@ function overlaylayermanager(layer)
                     mymap.eachLayer(function (layermap) {
 
                         if(layermap.options.idlayer == id){
+
                             mymap.removeLayer(layermap);
                             deleteObjectOfOverlayCurrentArray(layermap);
                         }
@@ -352,7 +371,6 @@ function overlaylayermanager(layer)
     }
 
 }
-
 
 function deleteObjectOfOverlayCurrentArray(capa_select) {
 
@@ -371,7 +389,6 @@ function deleteObjectOfOverlayCurrentArray(capa_select) {
 
 }
 
-
 function transformToArray(data) {
 
     var cadena = data,
@@ -387,7 +404,6 @@ function transformToArray(data) {
     return nuevaCadena2;
 
 }
-
 
 /*
     Funcion que carga la escala contro
@@ -436,8 +452,6 @@ function legendManager(element, checked)
     }
 }
 
-
-
 /*
     MapMinReference
 
@@ -456,16 +470,30 @@ function mapMinReferenceManager(){
 }
 
 /*
-    Tabla de Atributos
+    Este metodo cambia el tamano del divmap
  */
-
-
 
 function toogleButton() {
 
     var div_map = $("#mapid");
+    var div_desc_cont = $("#description-content");
     var width_body = $("#body").width();
     var width_div_map = div_map.width();
+
+
+
+    var width_por = ($(div_map).width() * 100) / $(div_map).parent().width();
+    width_por = Math.round(width_por);
+
+    var width_por_desc_con = Math.round(($(div_desc_cont).width() * 100) / $(div_desc_cont).parent().width());
+    var width_por_bolean = false;
+    console.log(width_por_desc_con);
+
+    if(width_por_desc_con === 40){
+        width_por_bolean = true;
+        $(div_desc_cont).css('width', '0%');
+        console.log("dentro");
+    }
 
     if(width_body > width_div_map){
         div_map.width(width_body);
@@ -475,10 +503,47 @@ function toogleButton() {
     }
 
     setTimeout(function () {
-        L.Map.prototype._onResize.call(mymap)
+        L.Map.prototype._onResize.call(mymap);
     }, 500);
+
+
 
 
 }
 
+function toogleDescription(){
+    var div_map = $("#mapid");
+    //$(div_map).width('60%');
+
+    var width_por = ($(div_map).width() * 100) / $(div_map).parent().width();
+    width_por = Math.round(width_por);
+
+    if(width_por === 60){
+
+        $(div_map).width('100%');
+        //$("#description-content").fadeToggle('slow', 'linear');
+        $("#description-content").width('0%');
+        //$("#description-content").css('display', 'none');
+
+    } else{
+        $("#description-content").css('display', 'inherit');
+        $("#description-content").width('40%');
+        $(div_map).width('60%');
+    }
+}
+
+/*
+    Metodo que limpia de los item las escalas que no tienen capas
+ */
+
+function removeEscalasSinCapas(){
+
+    $("#ul-capas-container #ul_capas").each(function () {
+       var cantidad = $(this).children("li").length;
+       if (cantidad === 0){
+
+           $(this).parent().remove();
+       }
+    });
+}
 

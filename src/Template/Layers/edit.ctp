@@ -67,6 +67,9 @@
                         <?= $this->Form->input('attribution', ['class' => 'form-control', 'placeholder' => 'Atribuciones', 'label' => 'Atribuciones:']) ?>
                         <br>
 
+                        <?= $this->Form->input('tiles', ['class' => 'form-control', 'placeholder' => 'Tiles', 'label' => 'Tiles:']) ?>
+                        <br>
+
                         <div class="form-group text">
                             <label for="activo">Activo?:</label>
                             <?= $this->Form->checkbox('activo', ['label' => 'Activo?:']) ?>

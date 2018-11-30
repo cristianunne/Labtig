@@ -47,3 +47,19 @@
 
 }
 
+.etiqueta-info{
+    position: absolute;
+    z-index: 20000000;
+    border: 1px solid #d2d6de;
+    background-color: #f9fafc;
+    padding: 3px 3px 3px 3px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    font: normal 11px arial,tahoma,verdana,helvetica;
+
+}
+

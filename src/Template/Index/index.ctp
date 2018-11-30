@@ -7,6 +7,7 @@
 <?= $this->Html->css('menu_controls') ?>
 <?= $this->Html->css('tableattribute') ?>
 <?= $this->Html->css('jquery-ui') ?>
+<?= $this->Html->css('index_map') ?>
 
 <?= $this->Html->script('leaflet/leaflet.js') ?>
 <?= $this->Html->script('leaflet/L.TileLayer.BetterWMS.js') ?>
@@ -14,6 +15,8 @@
 <?= $this->Html->script('loadingsetting.js') ?>
 <?= $this->Html->script('leaflet/menucontrols') ?>
 <?= $this->Html->script('tablaattributes') ?>
+<?= $this->Html->script('ResizeSensor') ?>
+<?= $this->Html->script('ElementQueries') ?>
 
 <?= $this->Html->script('jquery-ui') ?>
 
@@ -23,16 +26,32 @@
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
 
-    <section class="content" style="padding: 0px 0px 0px 0px;">
+    <section id="section_content" class="content" style="padding: 0px 0px 0px 0px;">
         <div class="div-content-menu-control">
-            <div id="div-info-content" style="display: inline-block;">
-                <button type="submit" class="btn btn-default btn-menu-controls" name="info" onclick="getInfoByClick(this)" onmouseleave="onmouseleavefunction()"><i class="info-ico"></i></button>
+            <div id="div-info-content" attr="Información del elemento" style="display: inline-block;" onmouseenter="showEtiquetaInfo(this)" onmouseleave="closeEtiquetaInfo(this)">
+                <button type="submit" class="btn btn-default btn-menu-controls" name="info" onclick="getInfoByClick(this)" onmouseleave="onmouseleavefunction()">
+                    <i class="info-ico"></i></button>
             </div>
 
         </div>
-        <div id="mapid" style="width: 100%; min-height: 85.5vh !important; height: 85.5vh;">
 
+        <div id="map-description-content">
+            <div id="map-content">
+
+                <div id="mapid" style="min-height: 85.5vh !important; height: 85.5vh;">
+
+                </div>
+
+            </div>
+
+            <div id="description-content" style="display: none; background-color: #0b3e6f;">
+                Div de la descripcion
+                Div de la descripcion
+            </div>
         </div>
+
+
+
 
     </section>
 

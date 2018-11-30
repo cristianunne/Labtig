@@ -4,7 +4,7 @@ L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({
         // Triggered when the layer is added to a map.
         //   Register a click listener, then do all the upstream WMS things
         L.TileLayer.WMS.prototype.onAdd.call(this, map);
-        map.on('click', this.getFeatureInfo, this);
+
     },
 
     onRemove: function (map) {
@@ -13,6 +13,11 @@ L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({
         L.TileLayer.WMS.prototype.onRemove.call(this, map);
         map.off('click', this.getFeatureInfo, this);
     },
+
+
+   /* activeGetFeatureInfo: function(map){
+        map.on('click', this.getFeatureInfo, this);
+    },*/
 
     getFeatureInfo: function (evt) {
         // Make an AJAX request to the server and hope for the best
@@ -36,25 +41,6 @@ L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({
             }
         });
 
-        /*$.ajax({
-            url: url,
-            type: "GET",
-            contentType: "application/json",
-            dataType : 'jsonp',
-            beforeSend: function(xhr)
-            {
-                xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
-                xhr.setRequestHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE");
-            },
-
-            success: function (data, status, xhr) {
-                var err = typeof data === 'string' ? null : data;
-                showResults(err, evt.latlng, data);
-            },
-            error: function (xhr, status, error) {
-                showResults(error);
-            }
-        });*/
     },
 
 
@@ -77,33 +63,24 @@ L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({
                 width: size.x,
                 layers: this.wmsParams.layers,
                 query_layers: this.wmsParams.layers,
-                info_format: 'text/html'
+                info_format: 'text/html',
             };
 
-        params[params.version === '1.3.0' ? 'i' : 'x'] = point.x;
-        params[params.version === '1.3.0' ? 'j' : 'y'] = point.y;
+        params[params.version === '1.3.0' ? 'i' : 'x'] = Math.round(point.x);
+        params[params.version === '1.3.0' ? 'j' : 'y'] = Math.round(point.y);
 
         return this._url + L.Util.getParamString(params, this._url, true);
     },
 
     showGetFeatureInfo: function (latlng, content) {
-
-        //var caption = $(content).find("table").find("caption").val();
-        //console.log(caption);
-        // Otherwise show the content in a popup, or something.
-
         //Sumo el numero de layers consultados
         num_layer_query = num_layer_query + 1;
-
-
         //Con el Caption me encargo de pasparle a la pestaña para que construya el panel
         createTableAttributes(content);
 
+
     }
 });
-
-
-
 
 
 L.tileLayer.betterWms = function (url, options) {

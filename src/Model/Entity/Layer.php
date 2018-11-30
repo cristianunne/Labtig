@@ -23,6 +23,9 @@ use Cake\ORM\Entity;
  * @property int $categoria_idcategoria
  * @property bool $activo
  * @property string $layers
+ * @property int $tiles
+ *
+ * @property \App\Model\Entity\Escalascapa $escalascapa
  */
 class Layer extends Entity
 {
@@ -52,6 +55,8 @@ class Layer extends Entity
         'escala_idescala' => true,
         'categoria_idcategoria' => true,
         'activo' => true,
-        'layers' => true
+        'layers' => true,
+        'tiles' => true,
+        'escalascapa' => true
     ];
 }

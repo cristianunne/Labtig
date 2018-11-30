@@ -148,7 +148,9 @@ class CapasbaseController extends AppController
 
             //Ingreso a la base de datos y traigo los parametro de configuracion
 
-            $capasbase = $this->Capasbase->find('all');
+            $capasbase = $this->Capasbase->find('all', [
+                'conditions' => ['active' => true]]);
+
 
             $res = [
                 'capasbase' => $capasbase

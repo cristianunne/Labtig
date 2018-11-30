@@ -7309,3 +7309,508 @@ Stack Trace:
 #18 {main}
 
 
+2018-11-15 19:45:20 Warning: Warning (512): _cake_routes_ cache was unable to write 'routeCollection' to DebugKit\Cache\Engine\DebugEngine cache in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Cache\Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Cache\Cache::write() - CORE\src\Cache\Cache.php, line 290
+Cake\Cache\Cache::remember() - CORE\src\Cache\Cache.php, line 633
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 81
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 130
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cors\Routing\Middleware\CorsMiddleware::__invoke() - ROOT\vendor\ozee31\cakephp-cors\src\Routing\Middleware\CorsMiddleware.php, line 31
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-15 19:45:21 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3Dnea_dptos%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-74.81689453125001%252C-34.79576153473033%252C-39.17724609375001%252C-18.62542454070125%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3DIGN%253Adptos_nea%26QUERY_LAYERS%3DIGN%253Adptos_nea%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D668%26Y%3D290
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-15 19:45:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3Dnea_dptos%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-74.81689453125001%252C-34.79576153473033%252C-39.17724609375001%252C-18.62542454070125%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3DIGN%253Adptos_nea%26QUERY_LAYERS%3DIGN%253Adptos_nea%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D668%26Y%3D290
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-15 19:45:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3Dnea_dptos%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-74.81689453125001%252C-34.79576153473033%252C-39.17724609375001%252C-18.62542454070125%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3DIGN%253Adptos_nea%26QUERY_LAYERS%3DIGN%253Adptos_nea%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D668%26Y%3D290
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-15 19:45:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3Dnea_dptos%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-74.81689453125001%252C-34.79576153473033%252C-39.17724609375001%252C-18.62542454070125%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3DIGN%253Adptos_nea%26QUERY_LAYERS%3DIGN%253Adptos_nea%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D668%26Y%3D290
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-15 19:45:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3Dnea_dptos%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-74.81689453125001%252C-34.79576153473033%252C-39.17724609375001%252C-18.62542454070125%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3DIGN%253Adptos_nea%26QUERY_LAYERS%3DIGN%253Adptos_nea%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D668%26Y%3D290
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:17 Warning: Warning (512): _cake_routes_ cache was unable to write 'routeCollection' to DebugKit\Cache\Engine\DebugEngine cache in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Cache\Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Cache\Cache::write() - CORE\src\Cache\Cache.php, line 290
+Cake\Cache\Cache::remember() - CORE\src\Cache\Cache.php, line 633
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 81
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 130
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cors\Routing\Middleware\CorsMiddleware::__invoke() - ROOT\vendor\ozee31\cakephp-cors\src\Routing\Middleware\CorsMiddleware.php, line 31
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:17 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3DIGN%253Aprovincias_degra%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-69.91699218750001%252C-30.99640184986883%252C-34.27734375000001%252C-14.285627503720946%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3DIGN%253Aprovincias%26QUERY_LAYERS%3DIGN%253Aprovincias%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D555%26Y%3D531
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3DIGN%253Aprovincias_degra%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-69.91699218750001%252C-30.99640184986883%252C-34.27734375000001%252C-14.285627503720946%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3DIGN%253Aprovincias%26QUERY_LAYERS%3DIGN%253Aprovincias%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D555%26Y%3D531
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3DIGN%253Aprovincias_degra%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-69.91699218750001%252C-30.99640184986883%252C-34.27734375000001%252C-14.285627503720946%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3DIGN%253Aprovincias%26QUERY_LAYERS%3DIGN%253Aprovincias%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D555%26Y%3D531
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3DIGN%253Aprovincias_degra%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-69.91699218750001%252C-30.99640184986883%252C-34.27734375000001%252C-14.285627503720946%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3DIGN%253Aprovincias%26QUERY_LAYERS%3DIGN%253Aprovincias%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D555%26Y%3D531
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3DIGN%253Aprovincias_degra%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-69.91699218750001%252C-30.99640184986883%252C-34.27734375000001%252C-14.285627503720946%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3DIGN%253Aprovincias%26QUERY_LAYERS%3DIGN%253Aprovincias%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D555%26Y%3D531
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:49 Warning: Warning (512): _cake_routes_ cache was unable to write 'routeCollection' to DebugKit\Cache\Engine\DebugEngine cache in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Cache\Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Cache\Cache::write() - CORE\src\Cache\Cache.php, line 290
+Cake\Cache\Cache::remember() - CORE\src\Cache\Cache.php, line 633
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 81
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 130
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cors\Routing\Middleware\CorsMiddleware::__invoke() - ROOT\vendor\ozee31\cakephp-cors\src\Routing\Middleware\CorsMiddleware.php, line 31
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 98
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:49 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3Dcapas_base%253Aciudades_sudamerica%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-69.52148437500001%252C-27.8973038158901%252C-33.88183593750001%252C-10.811673669995027%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3Dcapas_base%253Aciudades_sudamerica%26QUERY_LAYERS%3Dcapas_base%253Aciudades_sudamerica%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D538%26Y%3D696
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3Dcapas_base%253Aciudades_sudamerica%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-69.52148437500001%252C-27.8973038158901%252C-33.88183593750001%252C-10.811673669995027%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3Dcapas_base%253Aciudades_sudamerica%26QUERY_LAYERS%3Dcapas_base%253Aciudades_sudamerica%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D538%26Y%3D696
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3Dcapas_base%253Aciudades_sudamerica%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-69.52148437500001%252C-27.8973038158901%252C-33.88183593750001%252C-10.811673669995027%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3Dcapas_base%253Aciudades_sudamerica%26QUERY_LAYERS%3Dcapas_base%253Aciudades_sudamerica%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D538%26Y%3D696
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3Dcapas_base%253Aciudades_sudamerica%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-69.52148437500001%252C-27.8973038158901%252C-33.88183593750001%252C-10.811673669995027%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3Dcapas_base%253Aciudades_sudamerica%26QUERY_LAYERS%3Dcapas_base%253Aciudades_sudamerica%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D538%26Y%3D696
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-16 14:00:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /index/getAttribute?url=http%3A%2F%2F192.168.0.33%3A8080%2Fgeoserver%2Fwms%3F%26REQUEST%3DGetFeatureInfo%26SERVICE%3DWMS%26SRS%3DEPSG%253A4326%26STYLES%3Dcapas_base%253Aciudades_sudamerica%26TRANSPARENT%3Dtrue%26VERSION%3D%26FORMAT%3Dimage%252Fpng%26BBOX%3D-69.52148437500001%252C-27.8973038158901%252C-33.88183593750001%252C-10.811673669995027%26HEIGHT%3D828%26WIDTH%3D1622%26LAYERS%3Dcapas_base%253Aciudades_sudamerica%26QUERY_LAYERS%3Dcapas_base%253Aciudades_sudamerica%26INFO_FORMAT%3Dtext%252Fhtml%26X%3D538%26Y%3D696
+Referer URL: http://localhost/labtig/index
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-11-21 17:53:41 Error: [InvalidArgumentException] Cannot convert value of type `string` to bool
+Request URL: /index/getConfigMap
+Referer URL: http://localhost/labtig/index
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php(37): Cake\Database\Type\BoolType->toDatabase('true', Object(Cake\Database\Driver\Postgres))
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php(69): Cake\Database\Statement\StatementDecorator->cast('true', Object(Cake\Database\Type\BoolType))
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(128): Cake\Database\Statement\PDOStatement->bindValue('c0', 'true', 'boolean')
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(98): Cake\Database\Statement\StatementDecorator->bindValue('c0', 'true', 'boolean')
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\ValueBinder.php(147): Cake\Database\Log\LoggingStatement->bindValue('c0', 'true', 'boolean')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Connection.php(333): Cake\Database\ValueBinder->attachTo(Object(Cake\Database\Log\LoggingStatement))
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Connection.php(337): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Query.php(219): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Query.php(958): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Query.php(908): Cake\ORM\Query->_performCount()
+#11 C:\xampp\htdocs\labtig\src\Controller\IndexController.php(82): Cake\ORM\Query->count()
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\IndexController->getConfigMap()
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndexController))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\xampp\htdocs\labtig\vendor\ozee31\cakephp-cors\src\Routing\Middleware\CorsMiddleware.php(31): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cors\Routing\Middleware\CorsMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#29 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#30 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\xampp\htdocs\labtig\webroot\index.php(40): Cake\Http\Server->run()
+#32 {main}
+
+
+2018-11-21 17:53:51 Error: [InvalidArgumentException] Cannot convert value of type `string` to bool
+Request URL: /index/getConfigMap
+Referer URL: http://localhost/labtig/index
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php(37): Cake\Database\Type\BoolType->toDatabase('True', Object(Cake\Database\Driver\Postgres))
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php(69): Cake\Database\Statement\StatementDecorator->cast('True', Object(Cake\Database\Type\BoolType))
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(128): Cake\Database\Statement\PDOStatement->bindValue('c0', 'True', 'boolean')
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(98): Cake\Database\Statement\StatementDecorator->bindValue('c0', 'True', 'boolean')
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\ValueBinder.php(147): Cake\Database\Log\LoggingStatement->bindValue('c0', 'True', 'boolean')
+#5 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Connection.php(333): Cake\Database\ValueBinder->attachTo(Object(Cake\Database\Log\LoggingStatement))
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Connection.php(337): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Database\Query.php(219): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Query.php(958): Cake\Database\Query->execute()
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\ORM\Query.php(908): Cake\ORM\Query->_performCount()
+#11 C:\xampp\htdocs\labtig\src\Controller\IndexController.php(82): Cake\ORM\Query->count()
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\IndexController->getConfigMap()
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndexController))
+#15 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\xampp\htdocs\labtig\vendor\ozee31\cakephp-cors\src\Routing\Middleware\CorsMiddleware.php(31): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cors\Routing\Middleware\CorsMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#29 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#30 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\xampp\htdocs\labtig\webroot\index.php(40): Cake\Http\Server->run()
+#32 {main}
+
+
+2018-11-26 17:23:47 Error: [Cake\View\Exception\MissingElementException] Element file "Element\index_map.ctp" is missing.
+Exception Attributes: array (
+  0 => 'Element\\index_map.ctp',
+)
+Request URL: /index
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\src\Template\Index\index.ctp(22): Cake\View\View->element('index_map')
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(1240): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(1201): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(803): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render(NULL, NULL)
+#5 C:\xampp\htdocs\labtig\src\Controller\IndexController.php(58): Cake\Controller\Controller->render()
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\IndexController->index()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndexController))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\xampp\htdocs\labtig\vendor\ozee31\cakephp-cors\src\Routing\Middleware\CorsMiddleware.php(31): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cors\Routing\Middleware\CorsMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\xampp\htdocs\labtig\webroot\index.php(40): Cake\Http\Server->run()
+#26 {main}
+
+
+2018-11-26 17:24:30 Error: [Cake\View\Exception\MissingElementException] Element file "Element\index_map.ctp" is missing.
+Exception Attributes: array (
+  0 => 'Element\\index_map.ctp',
+)
+Request URL: /index
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\src\Template\Index\index.ctp(23): Cake\View\View->element('index_map')
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(1240): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(1201): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(803): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render(NULL, NULL)
+#5 C:\xampp\htdocs\labtig\src\Controller\IndexController.php(58): Cake\Controller\Controller->render()
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\IndexController->index()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndexController))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\xampp\htdocs\labtig\vendor\ozee31\cakephp-cors\src\Routing\Middleware\CorsMiddleware.php(31): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cors\Routing\Middleware\CorsMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\xampp\htdocs\labtig\webroot\index.php(40): Cake\Http\Server->run()
+#26 {main}
+
+
+2018-11-26 17:24:33 Error: [Cake\View\Exception\MissingElementException] Element file "Element\index_map.ctp" is missing.
+Exception Attributes: array (
+  0 => 'Element\\index_map.ctp',
+)
+Request URL: /index
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\src\Template\Index\index.ctp(23): Cake\View\View->element('index_map')
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(1240): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(1201): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\View\View.php(803): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(790): Cake\View\View->render(NULL, NULL)
+#5 C:\xampp\htdocs\labtig\src\Controller\IndexController.php(58): Cake\Controller\Controller->render()
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\IndexController->index()
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\IndexController))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\xampp\htdocs\labtig\vendor\ozee31\cakephp-cors\src\Routing\Middleware\CorsMiddleware.php(31): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cors\Routing\Middleware\CorsMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\xampp\htdocs\labtig\webroot\index.php(40): Cake\Http\Server->run()
+#26 {main}
+
+
+2018-11-28 19:41:04 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /Admin?redirect=%2Fadmin
+Referer URL: http://localhost/labtig/Admin?redirect=%2Fadmin
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\xampp\htdocs\labtig\vendor\ozee31\cakephp-cors\src\Routing\Middleware\CorsMiddleware.php(31): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cors\Routing\Middleware\CorsMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\labtig\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2018-11-28 19:41:14 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch.
+Request URL: /Admin?redirect=%2Fadmin
+Referer URL: http://localhost/labtig/Admin?redirect=%2Fadmin
+Stack Trace:
+#0 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\xampp\htdocs\labtig\vendor\ozee31\cakephp-cors\src\Routing\Middleware\CorsMiddleware.php(31): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cors\Routing\Middleware\CorsMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\labtig\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\labtig\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\labtig\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
