@@ -44,9 +44,13 @@
 
             </div>
 
-            <div id="description-content" style="display: none; background-color: #0b3e6f;">
-                Div de la descripcion
-                Div de la descripcion
+            <div id="description-content" style="display: none;">
+
+                <div id="content-writer">
+                    Div de la descripcion
+                    Div de la descripcion
+                </div>
+
             </div>
         </div>
 

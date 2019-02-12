@@ -25,7 +25,8 @@
                         <?= $this->Form->input('nombre', ['class' => 'form-control', 'placeholder' => 'Nombre', 'label' => 'Nombre:', 'required']) ?>
                         <br>
 
-                        <?= $this->Form->input('urlservice', ['class' => 'form-control', 'placeholder' => 'Url de Servicio', 'label' => 'Url de Servicio:', 'required']) ?>
+                        <?= $this->Form->input('servicios_idservicios', ['options' => $servicios, 'empty' => '(Elija una Categoría)', 'type' => 'select',
+                            'class' => 'form-control', 'placeholder' => 'Servicio', 'label' => 'Servicio:', 'required']) ?>
                         <br>
 
                         <?= $this->Form->input('layers', ['class' => 'form-control', 'placeholder' => 'Layers', 'label' => 'Layers:', 'required']) ?>

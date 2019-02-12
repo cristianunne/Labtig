@@ -25,7 +25,8 @@ class LayersTableTest extends TestCase
      */
     public $fixtures = [
         'app.layers',
-        'app.escalascapas'
+        'app.escalascapas',
+        'app.servicios'
     ];
 
     /**

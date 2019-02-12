@@ -34,7 +34,8 @@ class LayersController extends AppController
         $action = $data_url['Accion'];
         $categoria = $data_url['Categoria'];
 
-        $layers = $this->paginate($this->Layers->find('all')->contain(['Escalascapas']));
+        $layers = $this->Layers->find('all')->contain(['Escalascapas', 'Servicios']);
+
 
         $this->set(compact('layers'));
         $this->set('action', $action);
@@ -63,6 +64,12 @@ class LayersController extends AppController
             $this->Flash->error(__('Error al guardar la Capa. Intente nuevamente.'));
         }
 
+        $tablaServicios = $this->loadModel('Servicios');
+        $servicios = $tablaServicios->find('list', [
+            'keyField' => 'idservicios',
+            'valueField' => 'nombre'
+        ])->toArray();
+
         $tablaEscalas = $this->loadModel('Escalascapas');
         $escalas = $tablaEscalas->find('list', [
             'keyField' => 'idescala',
@@ -74,7 +81,7 @@ class LayersController extends AppController
             'keyField' => 'idcategoriacapa',
             'valueField' => 'categoria'
         ])->toArray();
-
+        $this->set(compact('servicios'));
         $this->set(compact('escalas'));
         $this->set(compact('categoriasCapas'));
         $this->set(compact('layers'));
@@ -109,6 +116,12 @@ class LayersController extends AppController
             $this->Flash->error(__('Error al guardar la Capa. Intente nuevamente.'));
         }
 
+        $tablaServicios = $this->loadModel('Servicios');
+        $servicios = $tablaServicios->find('list', [
+            'keyField' => 'idservicios',
+            'valueField' => 'nombre'
+        ])->toArray();
+
         $tablaEscalas = $this->loadModel('Escalascapas');
         $escalas = $tablaEscalas->find('list', [
             'keyField' => 'idescala',
@@ -121,6 +134,7 @@ class LayersController extends AppController
             'valueField' => 'categoria'
         ])->toArray();
 
+        $this->set(compact('servicios'));
         $this->set(compact('escalas'));
         $this->set(compact('categoriasCapas'));
         $this->set(compact('layers'));

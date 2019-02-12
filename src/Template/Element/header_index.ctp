@@ -86,7 +86,7 @@
             </ul>
         </div>
 
-        <a href="#" class="sidebar-toggle" data-toggle="" role="button" onclick="toogleDescription()" style="float: right;">
+        <a href="#" class="sidebar-toggle" role="button" onclick="toogleDescription()" style="float: right;">
             <span class="sr-only">Otro Boton</span>
         </a>
 

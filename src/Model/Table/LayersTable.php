@@ -40,6 +40,12 @@ class LayersTable extends Table
             'foreignKey' => 'idescala',
             'joinType' => 'INNER'
         ]);
+
+        $this->hasOne('Servicios', [
+            'bindingKey' => 'servicios_idservicios',
+            'foreignKey' => 'idservicios',
+            'joinType' => 'INNER'
+        ]);
     }
 
     /**
@@ -59,12 +65,6 @@ class LayersTable extends Table
             ->maxLength('nombre', 100)
             ->requirePresence('nombre', 'create')
             ->notEmpty('nombre');
-
-        $validator
-            ->scalar('urlservice')
-            ->maxLength('urlservice', 255)
-            ->requirePresence('urlservice', 'create')
-            ->notEmpty('urlservice');
 
         $validator
             ->scalar('styles')
@@ -134,6 +134,10 @@ class LayersTable extends Table
         $validator
             ->integer('tiles')
             ->allowEmpty('tiles');
+
+        $validator
+            ->integer('servicios_idservicios')
+            ->allowEmpty('servicios_idservicios');
 
         return $validator;
     }

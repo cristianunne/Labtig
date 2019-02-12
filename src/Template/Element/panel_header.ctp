@@ -19,6 +19,20 @@
 
       <?php endif ?>
 
+    <?php if($categoria == 'Servicios'):  ?>
+
+        <h1>
+            Servicios
+            <small>Configuraciones de Servicios</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fas fa-link"></i> Servicios</a></li>
+
+            <li class="active"><?php echo $action ?></li>
+        </ol>
+
+    <?php endif ?>
+
 
     <?php if($categoria == 'CapasBase'):  ?>
 

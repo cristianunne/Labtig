@@ -27,7 +27,8 @@ $cakeDescription = 'Mapa Interactivo - LabTIG (IIGHI-UNNE-CONICET)';
     <?= $this->Html->meta('icon') ?>
 
     <?= $this->Html->css('bootstrap.min') ?>
-    <?= $this->Html->css('font-awesome/css/font-awesome.min.css') ?>
+     <?= $this->Html->css('font-awesome/css/font-awesome.min.css') ?>
+
     <?= $this->Html->css('bower_components/Ionicons/css/ionicons.min.css') ?>
     <?= $this->Html->css('bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css') ?>
     <?= $this->Html->css('dist/css/AdminLTE.min.css') ?>

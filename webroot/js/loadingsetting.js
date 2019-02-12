@@ -30,7 +30,9 @@ $(function()
                 mapconfig = data.dataconfig;
                 capasbase = data.capasbase;
                 layersoverlay = data.layersoverlay;
+
                 countcapasbase = data.countcapasbase;
+                capabasedefault = data.capabasedefault;
 
                 //Inicializo el Mapa
                 init();
@@ -213,7 +215,8 @@ function loadCapasBase()
                        })
 
                        //Cargo el 1er base map al mapa
-                       if (i == 1){
+
+                       if (capabasedefault[0].capabase_id == capasbase[j]['idcapasbase']){
                             loadFirstCapaBase(capatomap_2, id);
                        }
 
@@ -315,7 +318,7 @@ function overlaylayermanager(layer)
                 //Verifico si es checked o unchecked y quito o agrego
                 if($(layer).prop('checked')){
 
-                    var capatomap = new L.TileLayer.BetterWMS(capa['urlservice'], {
+                    var capatomap = new L.TileLayer.BetterWMS(capa['servicio']['url_servicio'], {
                         'idlayer' : capa['idlayer'],
                         'layers' : capa['layers'],
                         'styles' : capa['styles'],
@@ -336,6 +339,7 @@ function overlaylayermanager(layer)
                     mymap.addLayer(capatomap);
 
 
+                    console.log(capatomap);
 
 
                     legendManager(layer, true);
@@ -520,17 +524,23 @@ function toogleDescription(){
 
     if(width_por === 60){
 
-        $(div_map).width('100%');
-        //$("#description-content").fadeToggle('slow', 'linear');
         $("#description-content").width('0%');
-        //$("#description-content").css('display', 'none');
+        $(div_map).width('100%');
+        $("#description-content").removeClass('prop-desc-cont');
+        $("#description-content").css('display', 'none');
 
     } else{
-        $("#description-content").css('display', 'inherit');
+
         $("#description-content").width('40%');
         $(div_map).width('60%');
+        $("#description-content").addClass('prop-desc-cont');
+        setTimeout(function () {
+            $("#description-content").css('display', 'inherit')
+        }, 1500);
+
     }
 }
+
 
 /*
     Metodo que limpia de los item las escalas que no tienen capas

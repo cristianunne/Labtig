@@ -19,7 +19,6 @@ class LayersFixture extends TestFixture
     public $fields = [
         'idlayer' => ['type' => 'integer', 'length' => 10, 'autoIncrement' => true, 'default' => null, 'null' => false, 'comment' => null, 'precision' => null, 'unsigned' => null],
         'nombre' => ['type' => 'string', 'length' => 100, 'default' => null, 'null' => false, 'collate' => null, 'comment' => null, 'precision' => null, 'fixed' => null],
-        'urlservice' => ['type' => 'string', 'length' => 255, 'default' => null, 'null' => false, 'collate' => null, 'comment' => null, 'precision' => null, 'fixed' => null],
         'styles' => ['type' => 'string', 'length' => 255, 'default' => null, 'null' => true, 'collate' => null, 'comment' => null, 'precision' => null, 'fixed' => null],
         'format' => ['type' => 'string', 'length' => 100, 'default' => null, 'null' => false, 'collate' => null, 'comment' => null, 'precision' => null, 'fixed' => null],
         'transparent' => ['type' => 'boolean', 'length' => null, 'default' => null, 'null' => false, 'comment' => null, 'precision' => null],
@@ -35,10 +34,12 @@ class LayersFixture extends TestFixture
         'activo' => ['type' => 'boolean', 'length' => null, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null],
         'layers' => ['type' => 'string', 'length' => 200, 'default' => null, 'null' => false, 'collate' => null, 'comment' => null, 'precision' => null, 'fixed' => null],
         'tiles' => ['type' => 'integer', 'length' => 10, 'default' => '256', 'null' => true, 'comment' => null, 'precision' => null, 'unsigned' => null, 'autoIncrement' => null],
+        'servicios_idservicios' => ['type' => 'integer', 'length' => 10, 'default' => null, 'null' => true, 'comment' => null, 'precision' => null, 'unsigned' => null, 'autoIncrement' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['idlayer'], 'length' => []],
             'fk_categoria_layers' => ['type' => 'foreign', 'columns' => ['categoria_idcategoria'], 'references' => ['categoriascapas', 'idcategoriacapa'], 'update' => 'noAction', 'delete' => 'setNull', 'length' => []],
             'fk_escala_layers' => ['type' => 'foreign', 'columns' => ['escala_idescala'], 'references' => ['escalascapas', 'idescala'], 'update' => 'noAction', 'delete' => 'noAction', 'length' => []],
+            'fk_servicios_layer' => ['type' => 'foreign', 'columns' => ['servicios_idservicios'], 'references' => ['servicios', 'idservicios'], 'update' => 'noAction', 'delete' => 'noAction', 'length' => []],
         ],
     ];
     // @codingStandardsIgnoreEnd
@@ -54,7 +55,6 @@ class LayersFixture extends TestFixture
             [
                 'idlayer' => 1,
                 'nombre' => 'Lorem ipsum dolor sit amet',
-                'urlservice' => 'Lorem ipsum dolor sit amet',
                 'styles' => 'Lorem ipsum dolor sit amet',
                 'format' => 'Lorem ipsum dolor sit amet',
                 'transparent' => 1,
@@ -69,7 +69,8 @@ class LayersFixture extends TestFixture
                 'categoria_idcategoria' => 1,
                 'activo' => 1,
                 'layers' => 'Lorem ipsum dolor sit amet',
-                'tiles' => 1
+                'tiles' => 1,
+                'servicios_idservicios' => 1
             ],
         ];
         parent::init();

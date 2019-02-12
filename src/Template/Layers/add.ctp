@@ -25,7 +25,8 @@
                         <?= $this->Form->input('nombre', ['class' => 'form-control', 'placeholder' => 'Nombre', 'label' => 'Nombre:', 'required']) ?>
                         <br>
 
-                        <?= $this->Form->input('urlservice', ['class' => 'form-control', 'placeholder' => 'Url de Servicio', 'label' => 'Url de Servicio:', 'required']) ?>
+                        <?= $this->Form->input('servicios_idservicios', ['options' => $servicios, 'empty' => '(Elija una Categoría)', 'type' => 'select',
+                            'class' => 'form-control', 'placeholder' => 'Servicio', 'label' => 'Servicio:', 'required']) ?>
                         <br>
 
                         <?= $this->Form->input('layers', ['class' => 'form-control', 'placeholder' => 'Layers', 'label' => 'Layers:', 'required']) ?>
@@ -61,7 +62,7 @@
                         <?= $this->Form->input('maxzoom', ['class' => 'form-control', 'placeholder' => 'MaxZoom', 'label' => 'MaxZoom:']) ?>
                         <br>
 
-                        <?= $this->Form->input('opacity', ['class' => 'form-control', 'placeholder' => 'Opacidad', 'label' => 'Opacidad:']) ?>
+                        <?= $this->Form->input('opacity', ['type' => 'number', 'step' => '0.01', 'class' => 'form-control', 'placeholder' => 'Opacidad', 'label' => 'Opacidad:']) ?>
                         <br>
 
                         <?= $this->Form->input('attribution', ['class' => 'form-control', 'placeholder' => 'Atribuciones', 'label' => 'Atribuciones:']) ?>

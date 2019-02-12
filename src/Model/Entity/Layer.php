@@ -8,7 +8,6 @@ use Cake\ORM\Entity;
  *
  * @property int $idlayer
  * @property string $nombre
- * @property string $urlservice
  * @property string $styles
  * @property string $format
  * @property bool $transparent
@@ -24,8 +23,10 @@ use Cake\ORM\Entity;
  * @property bool $activo
  * @property string $layers
  * @property int $tiles
+ * @property int $servicios_idservicios
  *
  * @property \App\Model\Entity\Escalascapa $escalascapa
+ * @property \App\Model\Entity\Servicio $servicio
  */
 class Layer extends Entity
 {
@@ -41,7 +42,6 @@ class Layer extends Entity
      */
     protected $_accessible = [
         'nombre' => true,
-        'urlservice' => true,
         'styles' => true,
         'format' => true,
         'transparent' => true,
@@ -57,6 +57,8 @@ class Layer extends Entity
         'activo' => true,
         'layers' => true,
         'tiles' => true,
-        'escalascapa' => true
+        'servicios_idservicios' => true,
+        'escalascapa' => true,
+        'servicio' => true
     ];
 }

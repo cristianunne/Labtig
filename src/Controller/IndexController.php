@@ -4,6 +4,7 @@ namespace App\Controller;
 use App\Controller\AppController;
 
 
+
 /**
  * Index Controller
  *
@@ -52,8 +53,11 @@ class IndexController extends AppController
 
         //Traigo los layers, u overlay capas
         $tablaLayers = $this->loadModel('Layers');
-        $layers = $tablaLayers->find()->where(['activo' => true])->order(['nombre' => 'ASC']);
+
+        //$tablaLayers->find('all', ['contain' => 'Servicios']);
+        $layers = $tablaLayers->find('all', ['contain' => 'Servicios'])->where(['activo' => true])->order(['Layers.idlayer' => 'ASC', 'Layers.nombre' => 'ASC']);
         $this->set(compact('layers'));
+        //debug($layers->toArray());
 
         $this->render();
 
@@ -87,8 +91,14 @@ class IndexController extends AppController
             $countcapasbase = $capasbase->count();
 
             $tablaLayers = $this->loadModel('Layers');
-            $layers = $tablaLayers->find()->select(['idlayer', 'nombre', 'urlservice', 'styles', 'format', 'transparent', 'version', 'crs', 'uppercase', 'minzoom',
-                'maxzoom', 'opacity', 'attribution', 'layers', 'tiles']);
+
+            $query_ = $tablaLayers->find('all', ['contain' =>'Servicios']);
+            $layers = $query_->select(['idlayer', 'Servicios.url_servicio', 'nombre', 'styles', 'format', 'transparent', 'version', 'crs', 'uppercase', 'minzoom',
+                'maxzoom', 'opacity', 'attribution', 'layers', 'tiles'])->order(['idlayer']);
+
+            //Obtengo la capabase default
+            $capabasedefaultTable = $this->loadModel('Capabasedefault');
+            $capabasedefault = $capabasedefaultTable->find('all', []);
 
 
             //Recorro los nombres de las capas base y creo un arreglo
@@ -97,7 +107,8 @@ class IndexController extends AppController
                 'dataconfig' => $mapConfigData,
                 'capasbase' => $capasbase,
                 'layersoverlay' => $layers,
-                'countcapasbase' => $countcapasbase
+                'countcapasbase' => $countcapasbase,
+                'capabasedefault' =>$capabasedefault
             ];
 
             return $this->json($res);

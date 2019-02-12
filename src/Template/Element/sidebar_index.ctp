@@ -197,7 +197,7 @@
 
                                             <?php if($layer->escala_idescala == $escalas->idescala): ?>
 
-                                                <?php $url_image =  $URL_SERVIDOR.'TRANSPARENT=TRUE&
+                                                <?php $url_image =  $URL_SERVIDOR.'TRANSPARENT=TRUE
                                                 &SERVICE=WMS&REQUEST=GetLegendGraphic&VERSION=1.1.1&FORMAT=image/png&SCALE=545979&LAYER='.$layer->layers.
                                                     '&STYLE='.$layer->styles?>
 
@@ -262,8 +262,8 @@
 
                                             <?php if($layer->escala_idescala == $escalas->idescala): ?>
 
-                                                <?php $url_image = $URL_SERVIDOR.'TRANSPARENT=TRUE&
-                                                &SERVICE=WMS&REQUEST=GetLegendGraphic&VERSION=1.1.1&FORMAT=image/png&SCALE=545979&LAYER='.$layer->layers.
+                                                <?php $url_image = $URL_SERVIDOR.'TRANSPARENT=TRUE
+                                                &SERVICE=WMS&REQUEST=GetLegendGraphic&VERSION=1.1.1&FORMAT=image/png&SCALE=1000000&LAYER='.$layer->layers.
                                                     '&STYLE='.$layer->styles?>
 
 

@@ -50,6 +50,26 @@
 
             </li>
 
+            <li id="li_Servicios" class="treeview">
+                <a href="#">
+                    <i class="fas fa-link"></i> <span>Servicios
+                    </span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active">
+                        <?= $this->Html->link('<i class="fa fa-plus"></i> Agregar', ['controller' => 'Servicios', 'action' => 'add', '?' => ['Accion' => 'Ver Configuraciones de Servicios', 'Categoria' => 'Servicios']], ['escape' => false]) ?>
+                    </li>
+                    <li class="active">
+                            <?= $this->Html->link('<i class="fa fa-eye"></i> Ver Servicios', ['controller' => 'Servicios', 'action' => 'index', '?' => ['Accion' => 'Ver Configuraciones de Servicios', 'Categoria' => 'Servicios']], ['escape' => false]) ?>
+                    </li>
+
+                </ul>
+
+            </li>
+
 
             <li class="header">ADMINISTRACIÓN DE CAPAS</li>
 
@@ -67,8 +87,12 @@
 
                     <li class="active">
 
-
                         <?= $this->Html->link('<i class="fa fa-plus"></i> Agregar', ['controller' => 'Capasbase', 'action' => 'add', '?' => ['Accion' => 'Agregar Capas Base', 'Categoria' => 'CapasBase']], ['escape' => false]) ?>
+                    </li>
+
+                    <li class="active">
+
+                        <?= $this->Html->link('<i class="fa fa-plus"></i> Capa Default', ['controller' => 'Capabasedefault', 'action' => 'index', '?' => ['Accion' => 'Default Capas Base', 'Categoria' => 'CapasBase']], ['escape' => false]) ?>
                     </li>
                 </ul>
 

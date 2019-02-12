@@ -27,11 +27,6 @@
                                 <th scope="col"><?= $this->Paginator->sort('Styles') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Formato') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Transparente') ?></th>
-                                <th scope="col"><?= $this->Paginator->sort('Versión') ?></th>
-                                <th scope="col"><?= $this->Paginator->sort('CRS') ?></th>
-                                <th scope="col"><?= $this->Paginator->sort('Uppercase') ?></th>
-                                <th scope="col"><?= $this->Paginator->sort('MinZoom') ?></th>
-                                <th scope="col"><?= $this->Paginator->sort('MaxZoom') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Opacidad') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Atribución') ?></th>
                                 <th scope="col"><?= $this->Paginator->sort('Tiles') ?></th>
@@ -47,7 +42,7 @@
                                 <tr>
                                     <td style="font-weight: bold; text-align: center; vertical-align: middle;"><?= h($capas->idlayer) ?></td>
                                     <td style="color: #2981a2; vertical-align: middle;"><?= h($capas->nombre) ?></td>
-                                    <td style="text-align: center; vertical-align: middle;"><?= h($capas->urlservice) ?></td>
+                                    <td style="text-align: center; vertical-align: middle;"><?= h($capas->servicio->url_servicio) ?></td>
                                     <td style="text-align: left; vertical-align: middle;"><?= h($capas->layers) ?></td>
                                     <td style="text-align: center; vertical-align: middle;"><?= h($capas->styles) ?></td>
                                     <td style="text-align: center; vertical-align: middle;"><?= h($capas->format) ?></td>
@@ -56,17 +51,7 @@
                                     <?php else: ?>
                                         <td style="text-align: center; vertical-align: middle;">Si</td>
                                     <?php endif; ?>
-                                    <td style="text-align: center; vertical-align: middle;"><?= h($capas->version) ?></td>
-                                    <td style="text-align: center; vertical-align: middle;"><?= h($capas->crs) ?></td>
 
-                                    <?php if ($capas->uppercase == 0): ?>
-                                        <td style="text-align: center; vertical-align: middle;">No</td>
-                                    <?php else: ?>
-                                        <td style="text-align: center; vertical-align: middle;">Si</td>
-                                    <?php endif; ?>
-
-                                    <td style="text-align: center; vertical-align: middle;"><?= h($capas->minzoom) ?></td>
-                                    <td style="text-align: center; vertical-align: middle;"><?= h($capas->maxzoom) ?></td>
                                     <td style="text-align: center;"><?= h($capas->opacity) ?></td>
 
                                     <td style="text-align: center; vertical-align: middle;"><?= h($capas->attribution) ?></td>
@@ -114,11 +99,12 @@
 
         $('#example2').DataTable({
             'paging'      : true,
-            'lengthChange': false,
+            'lengthChange': true,
             'searching'   : true,
             'ordering'    : true,
             'info'        : true,
-            'autoWidth'   : true,
+            'autoWidth'   : false,
+            'pageLength' : 50
         })
     })
 </script>
