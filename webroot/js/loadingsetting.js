@@ -30,6 +30,7 @@ $(function()
                 mapconfig = data.dataconfig;
                 capasbase = data.capasbase;
                 layersoverlay = data.layersoverlay;
+                //
 
                 countcapasbase = data.countcapasbase;
                 capabasedefault = data.capabasedefault;
